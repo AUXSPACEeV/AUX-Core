@@ -547,7 +547,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../6_Export-Fertigungsdaten/rev-01/Layers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../../../06_work_Harry/Main_PCB.step",
@@ -712,7 +712,7 @@
         "uuid": "fcf947be-69e5-4a5f-82aa-820e73da8230"
       }
     ],
-    "used_designators": "BZ1,Q1-2,U1-8,SW2,JP1,R1-7,R9-23,R25,R30-36,J5-7,D2-6,D10-13,C3-23,#PWR10-69,#PWR74-86",
+    "used_designators": "#G1,BZ1-2,Q1-3,U1-8,SW2-3,JP1,R1-7,R9-25,R30-36,J5-7,D2-6,D10-13,C3-23,#PWR10-69,#PWR74-86",
     "variants": []
   },
   "sheets": [

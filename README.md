@@ -2,6 +2,8 @@
 
 > Core/Sensor PCB of the Auxspace Avionics stack, built around an ESP32-S3-WROOM-1.
 
+![pcb_front.png](/6_Export-Fertigungsdaten/rev-01/AUXSPACE_core_pcb_front.png)
+
 AUX-Core is based on [µMETER](https://github.com/AUXSPACEeV/microMETER) and extends it by a
 high-G accelerometer, a magnetometer, 9 V USB Power Delivery and the stack connector that
 interfaces the board with the other PCBs of the avionics stack.

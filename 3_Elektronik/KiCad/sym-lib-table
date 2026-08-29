@@ -4,4 +4,5 @@
 	(lib (name "Connector_Wurth_WR-USB") (type "KiCad") (uri "${KIPRJMOD}/AUXSPACE_symbols/Connector_Wurth_WR-USB.kicad_sym") (options "") (descr ""))
 	(lib (name "Sensor_Magnetic") (type "KiCad") (uri "${KIPRJMOD}/AUXSPACE_symbols/Sensor_Magnetic.kicad_sym") (options "") (descr ""))
 	(lib (name "CH224A") (type "KiCad") (uri "${KIPRJMOD}/AUXSPACE_symbols/CH224A.kicad_sym") (options "") (descr ""))
+	(lib (name "mcu_meme") (type "KiCad") (uri "${KIPRJMOD}/AUXSPACE_symbols/mcu_meme.kicad_sym") (options "") (descr ""))
 )
