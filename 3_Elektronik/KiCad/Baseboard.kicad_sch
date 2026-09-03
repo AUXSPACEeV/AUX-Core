@@ -16657,7 +16657,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116056.pdf"
 			(at 182.88 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -16714,6 +16714,50 @@
 		)
 		(property "Sim.Pins" ""
 			(at 182.88 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" ""
+			(at 182.88 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "560112116056"
+			(at 182.88 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 182.88 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
+			(at 182.88 38.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16947,7 +16991,51 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Automotive 500mA, 40V Ultra Low IQ Low Dropout (LDO) Linear Regulator with Power Good Signal"
+			(at 85.09 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" "C5189739"
+			(at 85.09 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" ""
+			(at 85.09 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 85.09 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
 			(at 85.09 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -17036,7 +17124,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060GS75020.pdf"
 			(at 190.5 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -17092,6 +17180,50 @@
 			)
 		)
 		(property "Part Number" "865060143005"
+			(at 190.5 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" ""
+			(at 190.5 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "150060GS75020"
+			(at 190.5 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 190.5 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
 			(at 190.5 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -17425,6 +17557,50 @@
 			)
 		)
 		(property "Part Number" "885012106031"
+			(at 44.45 203.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" ""
+			(at 44.45 203.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "885012106031"
+			(at 44.45 203.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 44.45 203.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
 			(at 44.45 203.2 90)
 			(hide yes)
 			(show_name no)
@@ -17954,7 +18130,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "TODO"
 			(at 173.99 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -17967,6 +18143,50 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 173.99 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" "TODO"
+			(at 173.99 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "TODO"
+			(at 173.99 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" "TODO"
+			(at 173.99 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" "TODO"
+			(at 173.99 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18115,7 +18335,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/430481025816.pdf?ki"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/430481025816.pdf"
 			(at 234.95 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -18293,6 +18513,50 @@
 				)
 			)
 		)
+		(property "LCSC_PTNBR" ""
+			(at 222.25 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "430481025816"
+			(at 222.25 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 222.25 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
+			(at 222.25 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "54db83fb-757f-4e2d-b13f-769c381a3791")
 		)
@@ -18369,6 +18633,50 @@
 		)
 		(property "Description" "Buzzer, polarized"
 			(at 36.83 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" ""
+			(at 36.83 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" ""
+			(at 36.83 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 36.83 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
+			(at 36.83 38.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18712,6 +19020,50 @@
 				)
 			)
 		)
+		(property "LCSC_PTNBR" ""
+			(at 214.63 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "885012206071"
+			(at 214.63 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 214.63 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
+			(at 214.63 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "238628c2-dc06-42b4-b2f2-ac32b98f121d")
 		)
@@ -18847,7 +19199,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116043.pdf"
 			(at 97.79 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -18860,6 +19212,50 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 97.79 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" ""
+			(at 97.79 228.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "560112116043"
+			(at 97.79 228.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 97.79 228.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
+			(at 97.79 228.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19265,6 +19661,50 @@
 				)
 			)
 		)
+		(property "LCSC_PTNBR" ""
+			(at 260.35 223.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "865060243005"
+			(at 260.35 223.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 260.35 223.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
+			(at 260.35 223.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a7b32db0-0caa-4cb6-967e-e5e717c36cb0")
 		)
@@ -19410,6 +19850,50 @@
 				)
 			)
 		)
+		(property "LCSC_PTNBR" ""
+			(at 52.07 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "885012206076"
+			(at 52.07 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 52.07 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
+			(at 52.07 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "be1bdb81-4ebe-4adc-813f-bb3d3331f8f5")
 		)
@@ -19493,6 +19977,50 @@
 				)
 			)
 		)
+		(property "LCSC_PTNBR" ""
+			(at 257.81 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" ""
+			(at 257.81 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 257.81 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
+			(at 257.81 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "16b4ef1a-8123-4de2-b4f3-eb6009dbc08f")
 		)
@@ -19547,7 +20075,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "TODO"
 			(at 173.99 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -19560,6 +20088,50 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 173.99 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" "TODO"
+			(at 173.99 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "TODO"
+			(at 173.99 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" "TODO"
+			(at 173.99 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" "TODO"
+			(at 173.99 100.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19628,7 +20200,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116007.pdf"
 			(at 226.06 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -19640,6 +20212,50 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 226.06 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" ""
+			(at 226.06 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "560112116007"
+			(at 226.06 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 226.06 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
 			(at 226.06 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -19800,6 +20416,50 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 280.67 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" ""
+			(at 280.67 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" ""
+			(at 280.67 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 280.67 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
 			(at 280.67 266.7 0)
 			(hide yes)
 			(show_name no)
@@ -20029,6 +20689,50 @@
 				)
 			)
 		)
+		(property "LCSC_PTNBR" ""
+			(at 264.16 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "885012206071"
+			(at 264.16 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 264.16 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
+			(at 264.16 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5df8e8a4-c752-4490-9fc9-3b710b502523")
 		)
@@ -20086,7 +20790,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060GS75020.pdf"
 			(at 190.5 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -20142,6 +20846,50 @@
 			)
 		)
 		(property "Part Number" "865060143005"
+			(at 190.5 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" ""
+			(at 190.5 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "150060GS75020"
+			(at 190.5 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 190.5 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
 			(at 190.5 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -20365,7 +21113,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116004.pdf"
 			(at 255.27 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -20377,6 +21125,50 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 255.27 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" ""
+			(at 255.27 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "560112116004"
+			(at 255.27 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 255.27 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
 			(at 255.27 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -20600,7 +21392,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tcan337.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2871143.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.1.xh&lcsc_vid=RlRfVVJTFVcMXlFfRVgMVgVURQVcUlNfQlYPUFcFEVAxVlNeT1VdVVdeR1VWXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slQlBWXlNVTk8GEwkK"
 			(at 157.48 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -20612,6 +21404,50 @@
 			)
 		)
 		(property "Description" "High-Speed CAN Transceiver, 1Mbps, 3.3V supply, low power standby mode, shutdown mode, SOT-23-8/SOIC-8"
+			(at 157.48 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" "C2871143"
+			(at 157.48 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" ""
+			(at 157.48 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 157.48 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
 			(at 157.48 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -20775,7 +21611,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116045.pdf"
 			(at 264.16 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -20832,6 +21668,50 @@
 		)
 		(property "Sim.Pins" ""
 			(at 264.16 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" ""
+			(at 264.16 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "560112116006"
+			(at 264.16 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 264.16 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
+			(at 264.16 43.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20976,7 +21856,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://suddendocs.samtec.com/productspecs/sfm-tfm.pdf"
 			(at 308.61 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -21010,6 +21890,50 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 308.61 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" "not required"
+			(at 308.61 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "not required"
+			(at 308.61 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" "not required"
+			(at 308.61 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" "not required"
 			(at 308.61 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -21134,7 +22058,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/824500221.pdf"
 			(at 185.42 262.89 0)
 			(hide yes)
 			(show_name no)
@@ -21145,8 +22069,52 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power TVS Diode"
 			(at 185.42 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" ""
+			(at 185.42 262.89 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "824500221"
+			(at 185.42 262.89 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 185.42 262.89 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
+			(at 185.42 262.89 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21215,7 +22183,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://suddendocs.samtec.com/productspecs/sfm-tfm.pdf"
 			(at 308.61 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -21249,6 +22217,50 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 308.61 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" "not required"
+			(at 308.61 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "not required"
+			(at 308.61 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" "not required"
+			(at 308.61 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" "not required"
 			(at 308.61 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -21370,7 +22382,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116043.pdf"
 			(at 93.98 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -21383,6 +22395,50 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 93.98 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" ""
+			(at 93.98 226.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "560112116043"
+			(at 93.98 226.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 93.98 226.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
+			(at 93.98 226.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21483,6 +22539,50 @@
 			)
 		)
 		(property "Part Number" "885012206076"
+			(at 54.61 203.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" ""
+			(at 54.61 203.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "885012206076"
+			(at 54.61 203.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 54.61 203.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
 			(at 54.61 203.2 90)
 			(hide yes)
 			(show_name no)
@@ -21716,6 +22816,50 @@
 				)
 			)
 		)
+		(property "LCSC_PTNBR" ""
+			(at 106.68 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "885012206071"
+			(at 106.68 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 106.68 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
+			(at 106.68 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9b667bd3-ce35-4eb1-90ca-b789f0c3518b")
 		)
@@ -21807,6 +22951,50 @@
 			)
 		)
 		(property "Part Number" "885012106031"
+			(at 120.65 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" ""
+			(at 120.65 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "885012106031"
+			(at 120.65 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 120.65 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
 			(at 120.65 99.06 90)
 			(hide yes)
 			(show_name no)
@@ -21952,7 +23140,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116045.pdf"
 			(at 41.91 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -21965,6 +23153,50 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 41.91 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" ""
+			(at 41.91 52.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "560112116006"
+			(at 41.91 52.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 41.91 52.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
+			(at 41.91 52.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22288,6 +23520,50 @@
 				)
 			)
 		)
+		(property "LCSC_PTNBR" ""
+			(at 265.43 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" ""
+			(at 265.43 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 265.43 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
+			(at 265.43 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c6803044-25c8-4c9a-935e-1996b619c015")
 		)
@@ -22342,7 +23618,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2913201.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.5.xh&lcsc_vid=RlRfVVJTFVcMXlFfRVgMVgVURQVcUlNfQlYPUFcFEVAxVlNeT1VdVVBSR1RZVjsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slRVlZVlVSRE8GEwkK"
 			(at 73.66 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -22354,6 +23630,50 @@
 			)
 		)
 		(property "Description" "RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, onboard antenna, SMD"
+			(at 73.66 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" "C2913201"
+			(at 73.66 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" ""
+			(at 73.66 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 73.66 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
 			(at 73.66 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -22540,7 +23860,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "TODO"
 			(at 195.58 261.62 0)
 			(hide yes)
 			(show_name no)
@@ -22552,6 +23872,50 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 195.58 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" "TODO"
+			(at 195.58 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "TODO"
+			(at 195.58 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" "TODO"
+			(at 195.58 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" "TODO"
 			(at 195.58 261.62 0)
 			(hide yes)
 			(show_name no)
@@ -22696,7 +24060,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116147.pdf"
 			(at 77.47 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -22709,6 +24073,50 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 77.47 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" ""
+			(at 77.47 46.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "560112116147"
+			(at 77.47 46.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 77.47 46.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
+			(at 77.47 46.99 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22975,6 +24383,50 @@
 				)
 			)
 		)
+		(property "LCSC_PTNBR" ""
+			(at 69.85 46.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "885012206071"
+			(at 69.85 46.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 69.85 46.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
+			(at 69.85 46.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "69763353-1359-40d6-bb5f-8f10ac32650a")
 		)
@@ -23047,6 +24499,50 @@
 		)
 		(property "Description" "3-axis Magnetometer Node, SPI / I2C interface, VQFN-16"
 			(at 243.84 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" ""
+			(at 243.84 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" ""
+			(at 243.84 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 243.84 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" "482-90395KLWBBA001SP "
+			(at 243.84 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23134,7 +24630,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300311121.pdf"
 			(at 105.41 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -23168,6 +24664,50 @@
 			)
 		)
 		(property "Part Number" "61300311121"
+			(at 105.41 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" ""
+			(at 105.41 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "61300311121"
+			(at 105.41 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 105.41 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
 			(at 105.41 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -23218,7 +24758,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 23.368 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23240,7 +24780,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012206071.pdf"
 			(at 29.21 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -23251,7 +24791,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "MLCC, Desing Kit 885060"
 			(at 29.21 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -23307,6 +24847,50 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 29.21 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" ""
+			(at 29.21 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "885012206071"
+			(at 29.21 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 29.21 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
 			(at 29.21 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -23376,7 +24960,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/8240136.pdf"
 			(at 143.51 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -23387,7 +24971,51 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TVS Diode"
+			(at 143.51 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" ""
+			(at 143.51 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "8240136"
+			(at 143.51 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 143.51 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
 			(at 143.51 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -23474,6 +25102,50 @@
 			)
 		)
 		(property "Description" ""
+			(at 243.84 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" "not required"
+			(at 243.84 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "not required"
+			(at 243.84 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" "not required"
+			(at 243.84 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" "not required"
 			(at 243.84 270.51 0)
 			(hide yes)
 			(show_name no)
@@ -23812,6 +25484,50 @@
 				)
 			)
 		)
+		(property "LCSC_PTNBR" ""
+			(at 33.02 220.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "885012206071"
+			(at 33.02 220.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 33.02 220.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
+			(at 33.02 220.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4caa8b26-4fea-4120-8345-116365fe51e9")
 		)
@@ -24100,7 +25816,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116056.pdf"
 			(at 182.88 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -24157,6 +25873,50 @@
 		)
 		(property "Sim.Pins" ""
 			(at 182.88 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" ""
+			(at 182.88 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "560112116056"
+			(at 182.88 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 182.88 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
+			(at 182.88 45.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24457,7 +26217,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "TODO"
 			(at 135.89 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -24469,6 +26229,50 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 135.89 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" "TODO"
+			(at 135.89 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "TODO"
+			(at 135.89 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" "TODO"
+			(at 135.89 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" "TODO"
 			(at 135.89 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -24515,7 +26319,7 @@
 				)
 			)
 		)
-		(property "Value" "1.0uF"
+		(property "Value" "1µF"
 			(at 175.768 148.844 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24536,7 +26340,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012206071.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012206076.pdf"
 			(at 176.53 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -24614,6 +26418,50 @@
 			)
 		)
 		(property "Part Number" "885012206071"
+			(at 176.53 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" ""
+			(at 176.53 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "885012206076"
+			(at 176.53 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 176.53 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
 			(at 176.53 151.13 90)
 			(hide yes)
 			(show_name no)
@@ -24924,6 +26772,50 @@
 				)
 			)
 		)
+		(property "LCSC_PTNBR" ""
+			(at 44.45 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "885012206071"
+			(at 44.45 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 44.45 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
+			(at 44.45 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7292a03f-e651-4770-b350-b47193a9e55a")
 		)
@@ -24981,7 +26873,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116147.pdf"
 			(at 33.02 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -24994,6 +26886,50 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 33.02 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" ""
+			(at 33.02 203.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "560112116147"
+			(at 33.02 203.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 33.02 203.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
+			(at 33.02 203.2 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25062,7 +26998,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://suddendocs.samtec.com/productspecs/sfm-tfm.pdf"
 			(at 320.04 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -25096,6 +27032,50 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 320.04 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" "not required"
+			(at 320.04 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "not required"
+			(at 320.04 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" "not required"
+			(at 320.04 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" "not required"
 			(at 320.04 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -25294,7 +27274,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116056.pdf"
 			(at 217.17 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -25351,6 +27331,50 @@
 		)
 		(property "Sim.Pins" ""
 			(at 217.17 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" ""
+			(at 217.17 52.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "560112116056"
+			(at 217.17 52.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 217.17 52.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
+			(at 217.17 52.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25430,6 +27454,50 @@
 			)
 		)
 		(property "Description" ""
+			(at 229.87 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" "not required"
+			(at 229.87 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "not required"
+			(at 229.87 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" "not required"
+			(at 229.87 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" "not required"
 			(at 229.87 270.51 0)
 			(hide yes)
 			(show_name no)
@@ -25595,6 +27663,50 @@
 				)
 			)
 		)
+		(property "LCSC_PTNBR" ""
+			(at 273.05 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" ""
+			(at 273.05 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 273.05 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
+			(at 273.05 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4ebed94f-dcab-4036-a68d-f34554172416")
 		)
@@ -25730,7 +27842,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/430481025816.pdf?ki"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/430481025816.pdf"
 			(at 40.64 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -25908,6 +28020,50 @@
 				)
 			)
 		)
+		(property "LCSC_PTNBR" ""
+			(at 27.94 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "430481025816"
+			(at 27.94 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 27.94 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
+			(at 27.94 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "bfe0924b-2efa-4bf4-a839-b2e795807e56")
 		)
@@ -25971,7 +28127,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060GS75020.pdf"
 			(at 190.5 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -26027,6 +28183,50 @@
 			)
 		)
 		(property "Part Number" "865060143005"
+			(at 190.5 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" ""
+			(at 190.5 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "150060GS75020"
+			(at 190.5 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 190.5 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
 			(at 190.5 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -26128,6 +28328,50 @@
 			)
 		)
 		(property "Part Number" "885012206071"
+			(at 133.35 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" ""
+			(at 133.35 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "885012206071"
+			(at 133.35 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 133.35 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
 			(at 133.35 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -26583,7 +28827,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/en/components/products/datasheet/629722000214?ki"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/629722000214.pdf"
 			(at 229.87 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -26726,6 +28970,50 @@
 				)
 			)
 		)
+		(property "LCSC_PTNBR" ""
+			(at 165.1 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "629722000214"
+			(at 165.1 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 165.1 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
+			(at 165.1 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A8"
 			(uuid "d760fd22-c47a-4dc2-962e-e52c3ebda684")
 		)
@@ -26839,7 +29127,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116005.pdf"
 			(at 236.22 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -26852,6 +29140,50 @@
 		)
 		(property "Description" "Resistor"
 			(at 236.22 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" ""
+			(at 236.22 226.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "560112116005"
+			(at 236.22 226.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 236.22 226.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
+			(at 236.22 226.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27006,6 +29338,50 @@
 				)
 			)
 		)
+		(property "LCSC_PTNBR" ""
+			(at 140.97 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "885012206071"
+			(at 140.97 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 140.97 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
+			(at 140.97 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c4a9ebef-2292-4577-858e-c88f9ae181a4")
 		)
@@ -27141,7 +29517,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://suddendocs.samtec.com/productspecs/sfm-tfm.pdf"
 			(at 320.04 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -27175,6 +29551,50 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 320.04 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" "not required"
+			(at 320.04 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "not required"
+			(at 320.04 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" "not required"
+			(at 320.04 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" "not required"
 			(at 320.04 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -27296,7 +29716,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116056.pdf"
 			(at 182.88 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -27353,6 +29773,50 @@
 		)
 		(property "Sim.Pins" ""
 			(at 182.88 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" ""
+			(at 182.88 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "560112116056"
+			(at 182.88 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 182.88 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
+			(at 182.88 53.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27419,7 +29883,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116045.pdf"
 			(at 251.46 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -27476,6 +29940,50 @@
 		)
 		(property "Sim.Pins" ""
 			(at 251.46 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" ""
+			(at 251.46 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "560112116006"
+			(at 251.46 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 251.46 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
+			(at 251.46 43.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27555,7 +30063,51 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3-axis, ±200 g digital MEMS accelerometer"
+			(at 184.15 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" "C481898"
+			(at 184.15 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" ""
+			(at 184.15 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 184.15 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
 			(at 184.15 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -27892,7 +30444,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.wch.cn/downloads/CH224DS1_PDF.html"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C42459160.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.0.xh&lcsc_vid=RlRfVVJTFVcMXlFfRVgMVgVURQVcUlNfQlYPUFcFEVAxVlNeT1VdVV1fQVBYUzsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
 			(at 242.57 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -27905,6 +30457,50 @@
 		)
 		(property "Description" "USB PD3.2 sink controller, EPR/AVS/PPS/SPR + BC1.2, 5-30 V request, resistor / IO / I2C configuration, ESSOP-10"
 			(at 242.57 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" "C42459160"
+			(at 242.57 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" ""
+			(at 242.57 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 242.57 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
+			(at 242.57 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28042,6 +30638,50 @@
 				)
 			)
 		)
+		(property "LCSC_PTNBR" ""
+			(at 128.27 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "885012206071"
+			(at 128.27 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 128.27 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
+			(at 128.27 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "942eda8f-aea2-45e8-accb-da3a27d0483d")
 		)
@@ -28156,7 +30796,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1µF"
 			(at 258.318 212.852 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28177,7 +30817,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012206071.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012206076.pdf"
 			(at 260.35 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -28211,6 +30851,50 @@
 			)
 		)
 		(property "Part Number" "885012206071"
+			(at 260.35 215.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" ""
+			(at 260.35 215.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "885012206076"
+			(at 260.35 215.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 260.35 215.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
 			(at 260.35 215.9 90)
 			(hide yes)
 			(show_name no)
@@ -28281,7 +30965,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30896.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C3008053.pdf?spm=wm.sxq.inf.ggs___wm.ssy.em.0.tz&lcsc_vid=RlRfVVJTFVcMXlFfRVgMVgVURQVcUlNfQlYPUFcFEVAxVlNeT1VcXlxWRlNaVjsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
 			(at 246.38 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -28328,6 +31012,50 @@
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
 			(at 257.81 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" "C3008053"
+			(at 242.57 233.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" ""
+			(at 242.57 233.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 242.57 233.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
+			(at 242.57 233.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28441,6 +31169,50 @@
 				)
 			)
 		)
+		(property "LCSC_PTNBR" ""
+			(at 64.77 203.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "885012206071"
+			(at 64.77 203.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 64.77 203.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
+			(at 64.77 203.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4658d9fc-44e3-4206-b0cf-b1ddbfc93026")
 		)
@@ -28498,7 +31270,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116045.pdf"
 			(at 257.81 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -28555,6 +31327,50 @@
 		)
 		(property "Sim.Pins" ""
 			(at 257.81 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" ""
+			(at 257.81 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "560112116006"
+			(at 257.81 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 257.81 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
+			(at 257.81 43.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28698,7 +31514,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-DPS310-DataSheet-v01_02-EN.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C130156.pdf?spm=wm.sxq.inf.ggs___wm.ssy.em.0.tz&lcsc_vid=RlRfVVJTFVcMXlFfRVgMVgVURQVcUlNfQlYPUFcFEVAxVlNeT1VdVVxXT1NeXjsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slRFdYVFNVT08GEwkK"
 			(at 57.15 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -28711,6 +31527,50 @@
 		)
 		(property "Description" "Infineon DPS310 digital barometric pressure sensor, I2C/SPI, LGA-8"
 			(at 57.15 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" "C130156"
+			(at 57.15 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" ""
+			(at 57.15 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 57.15 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
+			(at 57.15 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28795,7 +31655,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116010.pdf"
 			(at 77.47 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -28808,6 +31668,50 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 77.47 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" ""
+			(at 77.47 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "560112116010"
+			(at 77.47 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 77.47 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
+			(at 77.47 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28874,7 +31778,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116045.pdf"
 			(at 245.11 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -28931,6 +31835,50 @@
 		)
 		(property "Sim.Pins" ""
 			(at 245.11 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" ""
+			(at 245.11 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "560112116006"
+			(at 245.11 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 245.11 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
+			(at 245.11 43.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29001,7 +31949,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/693072010801.pdf?ki"
+		(property "Datasheet" "https://asset.re-in.de/add/160267/c1/-/en/002300483DS00/DA_TRU-COMPONENTS-TC-9201932-microSD-Kartensockel-Klappe.pdf"
 			(at 104.14 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -29166,6 +32114,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC_PTNBR" ""
+			(at 91.44 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" ""
+			(at 91.44 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" "https://www.voelkner.de/products/4073726/TRU-COMPONENTS-TC-9201932-microSD-Kartensockel-Klappe.html"
+			(at 91.44 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
+			(at 91.44 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "S1"
@@ -29699,7 +32691,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 77.216 154.686 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29721,7 +32713,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012206071.pdf"
 			(at 74.93 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -29732,7 +32724,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "MLCC, Desing Kit 885060"
 			(at 74.93 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -29788,6 +32780,50 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 74.93 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" ""
+			(at 74.93 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "885012206071"
+			(at 74.93 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 74.93 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
 			(at 74.93 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -29933,7 +32969,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/824094024.pdf?ki"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/824094024.pdf"
 			(at 168.656 216.408 0)
 			(hide yes)
 			(show_name no)
@@ -30160,6 +33196,50 @@
 				(justify left)
 			)
 		)
+		(property "LCSC_PTNBR" ""
+			(at 182.88 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "824094024"
+			(at 182.88 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 182.88 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
+			(at 182.88 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c7acb704-8e7b-4270-924b-54ade7a43bec")
 		)
@@ -30233,8 +33313,52 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "iNEMO 6 degrees of freedom inertial module, with 32g accelerometer and embedded machine"
 			(at 107.95 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" "C3663738"
+			(at 128.27 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" ""
+			(at 128.27 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 128.27 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
+			(at 128.27 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30340,7 +33464,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30896.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C3008053.pdf?spm=wm.sxq.inf.ggs___wm.ssy.em.0.tz&lcsc_vid=RlRfVVJTFVcMXlFfRVgMVgVURQVcUlNfQlYPUFcFEVAxVlNeT1VcXlxWRlNaVjsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
 			(at 30.48 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -30387,6 +33511,50 @@
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
 			(at 35.56 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" "C3008053"
+			(at 35.56 46.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" ""
+			(at 35.56 46.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 35.56 46.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
+			(at 35.56 46.99 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30456,7 +33624,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116005.pdf"
 			(at 36.83 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -30513,6 +33681,50 @@
 		)
 		(property "Sim.Pins" ""
 			(at 36.83 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" ""
+			(at 36.83 165.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "560112116005"
+			(at 36.83 165.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 36.83 165.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
+			(at 36.83 165.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30613,6 +33825,50 @@
 			)
 		)
 		(property "Part Number" "885012206071"
+			(at 186.69 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" ""
+			(at 186.69 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "885012206071"
+			(at 186.69 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 186.69 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
 			(at 186.69 100.33 90)
 			(hide yes)
 			(show_name no)

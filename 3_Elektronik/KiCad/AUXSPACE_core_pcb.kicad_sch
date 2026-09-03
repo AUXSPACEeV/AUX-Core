@@ -348,7 +348,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116001.pdf"
 			(at 245.11 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -361,6 +361,50 @@
 		)
 		(property "Description" "Resistor"
 			(at 245.11 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" ""
+			(at 245.11 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "560112116001"
+			(at 245.11 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 245.11 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
+			(at 245.11 125.73 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -427,7 +471,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116001.pdf"
 			(at 245.11 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -440,6 +484,50 @@
 		)
 		(property "Description" "Resistor"
 			(at 245.11 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" ""
+			(at 245.11 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "560112116001"
+			(at 245.11 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 245.11 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
+			(at 245.11 132.08 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -506,7 +594,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116001.pdf"
 			(at 245.11 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -519,6 +607,50 @@
 		)
 		(property "Description" "Resistor"
 			(at 245.11 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" ""
+			(at 245.11 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "560112116001"
+			(at 245.11 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 245.11 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
+			(at 245.11 119.38 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -585,7 +717,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116001.pdf"
 			(at 245.11 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -598,6 +730,50 @@
 		)
 		(property "Description" "Resistor"
 			(at 245.11 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC_PTNBR" ""
+			(at 245.11 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "WE_PTNBR" "560112116001"
+			(at 245.11 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VOELKNER_PTNBR" ""
+			(at 245.11 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MOUSER_PTNBR" ""
+			(at 245.11 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
