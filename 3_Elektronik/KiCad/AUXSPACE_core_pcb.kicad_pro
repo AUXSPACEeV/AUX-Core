@@ -562,7 +562,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "",
+    "bom_export_filename": "../../6_Export-Fertigungsdaten/rev-01/AUXSPACE_core_pcb.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
