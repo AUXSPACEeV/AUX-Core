@@ -10693,20 +10693,8 @@
 		(uuid "5a983837-17e3-4f9a-a97c-3f85da5d690a")
 	)
 	(no_connect
-		(at 88.9 231.14)
-		(uuid "61bac025-f9ef-49b6-a58f-1f9a01df2a99")
-	)
-	(no_connect
-		(at 58.42 238.76)
-		(uuid "6ec83f8c-2494-4fe7-8a4f-75cd0d125cfc")
-	)
-	(no_connect
 		(at 229.87 208.28)
 		(uuid "79cd00c6-37b3-4635-92a6-7e88fcccf034")
-	)
-	(no_connect
-		(at 58.42 226.06)
-		(uuid "8053429d-40ee-4fcf-9a51-67b3cc6dd509")
 	)
 	(no_connect
 		(at 144.78 163.83)
@@ -10737,16 +10725,8 @@
 		(uuid "ab4f39b9-a5de-4912-8b1a-aedca12a17e5")
 	)
 	(no_connect
-		(at 58.42 223.52)
-		(uuid "c7f939bd-c274-436b-a3b8-448a4a520eda")
-	)
-	(no_connect
 		(at 255.27 166.37)
 		(uuid "ea1ab9c7-a3f1-4f4c-afc5-206465c4d540")
-	)
-	(no_connect
-		(at 58.42 256.54)
-		(uuid "f4f34a27-4c78-47cc-8566-948415025716")
 	)
 	(wire
 		(pts
@@ -10957,6 +10937,16 @@
 			(type default)
 		)
 		(uuid "0be00d58-4081-4ebe-a373-0e8856ab4b23")
+	)
+	(wire
+		(pts
+			(xy 39.37 256.54) (xy 58.42 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d6140b7-2b1a-4949-9849-a10894887910")
 	)
 	(wire
 		(pts
@@ -12060,7 +12050,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 228.6) (xy 95.25 228.6)
+			(xy 88.9 228.6) (xy 91.44 228.6)
 		)
 		(stroke
 			(width 0)
@@ -12387,6 +12377,16 @@
 			(type default)
 		)
 		(uuid "61e68eae-24f2-4fd2-a5de-5bc3bc857235")
+	)
+	(wire
+		(pts
+			(xy 39.37 226.06) (xy 58.42 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "621410fc-8ddd-4b92-b374-8cf04d87ac49")
 	)
 	(wire
 		(pts
@@ -13070,6 +13070,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 223.52) (xy 58.42 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d71d796-3791-4842-bbc3-876bfcac84d1")
+	)
+	(wire
+		(pts
 			(xy 190.5 252.73) (xy 179.07 252.73)
 		)
 		(stroke
@@ -13220,7 +13230,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 228.6) (xy 109.22 228.6)
+			(xy 96.52 228.6) (xy 109.22 228.6)
 		)
 		(stroke
 			(width 0)
@@ -13827,6 +13837,16 @@
 			(type default)
 		)
 		(uuid "b79cc9a9-4a4c-46e7-88c2-1086b6fc0b9f")
+	)
+	(wire
+		(pts
+			(xy 109.22 231.14) (xy 88.9 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b83bdccc-a5d6-47ed-a499-a4a8bf560da1")
 	)
 	(wire
 		(pts
@@ -15010,6 +15030,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 238.76) (xy 58.42 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fac7a62d-4be0-49e7-a80d-799a500f8757")
+	)
+	(wire
+		(pts
 			(xy 214.63 86.36) (xy 214.63 87.63)
 		)
 		(stroke
@@ -15451,6 +15481,26 @@
 		)
 		(uuid "5ad92ed2-8a63-461a-9dbd-d3029e5cf4c0")
 	)
+	(label "LIFTOFF"
+		(at 109.22 231.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5b645ece-a9cc-4924-9b4d-b83862ecbb4c")
+	)
+	(label "UART_RX_bot"
+		(at 39.37 238.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d75bc42-674f-4e85-84c1-85ae61e686e6")
+	)
 	(label "UART_TX_bot"
 		(at 370.84 121.92 180)
 		(effects
@@ -15470,6 +15520,16 @@
 			(justify left bottom)
 		)
 		(uuid "62d22b7d-b3d5-4b4c-be2b-68b7faca1119")
+	)
+	(label "UART_TX_bot"
+		(at 39.37 256.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "632606fd-12a2-4c6e-af99-559f24f836bc")
 	)
 	(label "LIFTOFF"
 		(at 370.84 99.06 180)
@@ -16196,6 +16256,16 @@
 		)
 		(uuid "d985350a-84e7-4eca-8e04-c004784bcaa5")
 	)
+	(label "UART_RX_top"
+		(at 39.37 226.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db2bb5a7-1da1-4b0c-a03c-180fe673798e")
+	)
 	(label "LIFTOFF"
 		(at 327.66 38.1 0)
 		(effects
@@ -16235,6 +16305,16 @@
 			(justify left bottom)
 		)
 		(uuid "e18e0ada-12e3-448d-99b6-72c3a375e09c")
+	)
+	(label "UART_TX_top"
+		(at 39.37 223.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e2cb3377-101c-4139-b963-df13d250eb6d")
 	)
 	(label "CAN_H"
 		(at 370.84 88.9 180)
@@ -19159,7 +19239,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 97.79 228.6 270)
+		(at 93.98 228.6 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19169,7 +19249,7 @@
 		(dnp no)
 		(uuid "2edd8947-cd5b-4cae-9cef-348c952907ef")
 		(property "Reference" "R20"
-			(at 97.79 228.6 90)
+			(at 93.98 228.6 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19179,7 +19259,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 97.79 230.124 90)
+			(at 93.98 230.124 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19189,7 +19269,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 97.79 228.6 0)
+			(at 93.98 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19200,7 +19280,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/560112116043.pdf"
-			(at 97.79 228.6 0)
+			(at 93.98 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19211,7 +19291,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 97.79 228.6 0)
+			(at 93.98 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19222,7 +19302,7 @@
 			)
 		)
 		(property "LCSC_PTNBR" ""
-			(at 97.79 228.6 90)
+			(at 93.98 228.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19233,7 +19313,7 @@
 			)
 		)
 		(property "WE_PTNBR" "560112116043"
-			(at 97.79 228.6 90)
+			(at 93.98 228.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19244,7 +19324,7 @@
 			)
 		)
 		(property "VOELKNER_PTNBR" ""
-			(at 97.79 228.6 90)
+			(at 93.98 228.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19255,7 +19335,7 @@
 			)
 		)
 		(property "MOUSER_PTNBR" ""
-			(at 97.79 228.6 90)
+			(at 93.98 228.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24508,7 +24588,7 @@
 				)
 			)
 		)
-		(property "LCSC_PTNBR" ""
+		(property "LCSC_PTNBR" "C1016174"
 			(at 243.84 101.6 0)
 			(hide yes)
 			(show_name no)
