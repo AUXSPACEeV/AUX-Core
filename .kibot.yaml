@@ -1,0 +1,175 @@
+# KiBot configuration for AUX-Core — https://kibot.readthedocs.io
+# Run locally (same image as CI):
+#   docker run --rm -v "$PWD:/w" -w /w ghcr.io/inti-cmnb/kicad10_auto_full:1.9.1-1_k10.0.5_d13.2_b4.2.4LTS \
+#     kibot -c .kibot.yaml -d out \
+#       -e 3_Elektronik/KiCad/AUXSPACE_core_pcb.kicad_sch -b 3_Elektronik/KiCad/AUXSPACE_core_pcb.kicad_pcb
+kibot:
+  version: 1
+
+preflight:
+  # dont_stop: keep generating outputs after ERC/DRC errors; the CI job still
+  # fails at the end because kibot runs with -F (--fail-on-ignored).
+  erc:
+    enabled: true
+    dont_stop: true
+  drc:
+    enabled: true
+    dont_stop: true
+  # Refill zones before DRC/outputs so a stale fill can't hide or cause errors.
+  check_zone_fills: true
+
+global:
+  # Name every output after the project, e.g. AUXSPACE_core_pcb-bom.csv
+  output: '%f-%i%I%v.%x'
+
+outputs:
+  # ── Fabrication ────────────────────────────────────────────────────────────
+  - name: gerbers
+    comment: Gerber files
+    type: gerber
+    dir: fab/gerbers
+    layers:
+      - copper
+      - F.Paste
+      - B.Paste
+      - F.Silkscreen
+      - B.Silkscreen
+      - F.Mask
+      - B.Mask
+      - Edge.Cuts
+
+  - name: drill
+    comment: Excellon drill files + map
+    type: excellon
+    dir: fab/gerbers
+    options:
+      map: pdf
+
+  - name: fab_zip
+    comment: Gerbers + drill in one zip for the fab house
+    type: compress
+    dir: fab
+    options:
+      files:
+        - from_output: gerbers
+          dest: /
+        - from_output: drill
+          dest: /
+
+  # ── Assembly ───────────────────────────────────────────────────────────────
+  - name: position
+    comment: Pick & place files
+    type: position
+    dir: assembly
+    options:
+      format: CSV
+      only_smd: false
+      separate_files_for_front_and_back: true
+
+  - name: bom_csv
+    comment: Bill of materials (CSV)
+    type: bom
+    dir: assembly
+    options: &bom_opts
+      columns:
+        - Row
+        - field: References
+          name: Reference
+        - Value
+        - field: Footprint
+        - field: Quantity Per PCB
+          name: Qty
+        - MPN
+        - Manufacturer
+        - LCSC_PTNBR
+        - MOUSER_PTNBR
+        - WE_PTNBR
+        - VOELKNER_PTNBR
+        - Description
+      format: CSV
+
+  - name: bom_html
+    comment: Bill of materials (HTML)
+    type: bom
+    dir: assembly
+    options:
+      <<: *bom_opts
+      format: HTML
+
+  - name: ibom
+    comment: Interactive HTML BOM
+    type: ibom
+    dir: assembly
+
+  # ── Documentation ──────────────────────────────────────────────────────────
+  - name: schematic_pdf
+    comment: Schematic PDF
+    type: pdf_sch_print
+    dir: docs
+
+  - name: pcb_pdf
+    comment: PCB layers PDF, one page per layer
+    type: pcb_print
+    dir: docs
+    options:
+      format: PDF
+      pages:
+        - layers: [F.Cu, F.Silkscreen, F.Mask, Edge.Cuts]
+          sheet: Top
+        - layers: [In1.Cu, Edge.Cuts]
+          sheet: Inner 1
+        - layers: [In2.Cu, Edge.Cuts]
+          sheet: Inner 2
+        - layers: [B.Cu, B.Silkscreen, B.Mask, Edge.Cuts]
+          sheet: Bottom
+          mirror: true
+      keep_temporal_files: false
+
+  # ── 3D ─────────────────────────────────────────────────────────────────────
+  - name: step
+    comment: STEP 3D model
+    type: export_3d
+    dir: 3d
+
+  - name: render_top
+    comment: 3D render, top
+    type: render_3d
+    dir: 3d
+    options:
+      view: top
+      ray_tracing: true
+      zoom: 1
+      width: 1920
+      height: 1080
+
+  - name: render_bottom
+    comment: 3D render, bottom
+    type: render_3d
+    dir: 3d
+    options:
+      view: bottom
+      ray_tracing: true
+      zoom: 1
+      width: 1920
+      height: 1080
+
+  # ── Diffs (PRs only; run explicitly with -E BASE=<git ref>) ────────────────
+  - name: diff_sch
+    comment: Schematic diff against BASE
+    type: diff
+    dir: diff
+    run_by_default: false
+    options:
+      old: '@BASE@'
+      old_type: git
+      pcb: false
+
+  - name: diff_pcb
+    comment: PCB diff against BASE
+    type: diff
+    dir: diff
+    run_by_default: false
+    options:
+      old: '@BASE@'
+      old_type: git
+      pcb: true

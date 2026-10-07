@@ -1,9 +1,6 @@
-# kicad-ci: force LF line endings so shell scripts work in Linux containers
-scripts/**   text eol=lf
-*.py         text eol=lf
-*.sh         text eol=lf
-*.yml        text eol=lf
-*.yaml       text eol=lf
+# Keep LF line endings so KiCad files and CI configs diff cleanly across OSes
 *.kicad_sch  text eol=lf
 *.kicad_pcb  text eol=lf
 *.kicad_pro  text eol=lf
+*.yml        text eol=lf
+*.yaml       text eol=lf
