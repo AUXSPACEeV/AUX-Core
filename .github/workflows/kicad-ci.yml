@@ -1,0 +1,506 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Dillan McDonald
+#
+# KiCad CI/CD Pipeline — Professional Documentation Suite
+# ─────────────────────────────────────────────────────────────────────────────
+# Jobs:
+#   erc       → Electrical Rules Check           (must pass; blocks drc)
+#   drc       → Design Rules Check + sch parity  (must pass; blocks export)
+#   export    → Full professional doc set + iBoM + testpoints + README
+#   release   → GitHub Release with all docs attached (tags matching v*)
+#   pages     → KDT-style HTML navigation site on GitHub Pages
+#
+# Container: ghcr.io/kicad/kicad:9.0  (official KiCad image, GPL-3.0)
+#   Running a GPL binary in CI does NOT affect the license of these scripts.
+#
+# All workflow scripts (scripts/*.sh, scripts/*.py) are MIT-licensed.
+
+name: KiCad CI
+
+on:
+  push:
+    branches: ["**"]
+    tags:     ["v*"]
+    paths-ignore:
+      - '**.md'
+      - 'LICENSE'
+      - '.gitignore'
+      - 'templates/**'
+  pull_request:
+    branches: ["**"]
+    paths-ignore:
+      - '**.md'
+      - 'LICENSE'
+      - '.gitignore'
+      - 'templates/**'
+  workflow_dispatch:
+
+concurrency:
+  group: kicad-ci-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  # ── USER CONFIG ───────────────────────────────────────────────────────────
+  PROJECT_DIR: "3_Elektronik/KiCad"
+  # Set SKIP_RENDER: "0" on a self-hosted runner with GPU for 3D renders.
+  SKIP_RENDER: "1"
+  # Board variant stamp: DRAFT | PRELIMINARY | CHECKED | RELEASED
+  BOARD_VARIANT: "DRAFT"
+  # ── Blender render config ─────────────────────────────────────────────────
+  # Pinned Blender version (official tar, not snap — snaps break in Docker).
+  BLENDER_VERSION: "4.1.1"
+  RENDER_SAMPLES: "128"
+  RENDER_PRESETS: "iso-left,top"
+  RENDER_RES_X: "1920"
+  RENDER_RES_Y: "1080"
+  RENDER_SEED: "42"
+
+# ── ERC ───────────────────────────────────────────────────────────────────────
+jobs:
+  erc:
+    name: "ERC — Electrical Rules Check"
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    container:
+      image: ghcr.io/kicad/kicad:9.0
+      options: --user root
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Make scripts executable
+        run: chmod +x scripts/*.sh scripts/lib/*.sh
+
+      - name: Run ERC
+        run: scripts/erc.sh
+
+      - name: Upload ERC report
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: erc-report
+          path: output/erc/
+          if-no-files-found: warn
+
+# ── DRC ───────────────────────────────────────────────────────────────────────
+  drc:
+    name: "DRC — Design Rules Check"
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    needs: erc
+    container:
+      image: ghcr.io/kicad/kicad:9.0
+      options: --user root
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Make scripts executable
+        run: chmod +x scripts/*.sh scripts/lib/*.sh
+
+      - name: Run DRC
+        run: scripts/drc.sh
+
+      - name: Upload DRC report
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: drc-report
+          path: output/drc/
+          if-no-files-found: warn
+
+# ── Export ────────────────────────────────────────────────────────────────────
+  export:
+    name: "Export — Full Documentation Suite"
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    needs: [erc, drc]
+    container:
+      image: ghcr.io/kicad/kicad:9.0
+      options: --user root
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Make scripts executable
+        run: chmod +x scripts/*.sh scripts/lib/*.sh scripts/*.py
+
+      - name: Cache KiCad 3D models
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.local/share/kicad/9.0/3dmodels
+            /root/.local/share/kicad/9.0/3dmodels
+          key: kicad-3d-${{ hashFiles('**/*.kicad_pcb') }}
+          restore-keys: kicad-3d-
+
+      - name: Inject git metadata
+        run: |
+          PRO=$(find "$PROJECT_DIR" -maxdepth 2 -name "*.kicad_pro" | sort | head -1)
+          if [[ -n "$PRO" ]]; then
+            python3 scripts/inject_git_meta.py \
+              --project "$PRO" \
+              --variant "$BOARD_VARIANT"
+          fi
+
+      - name: Sync revision from CHANGELOG
+        run: |
+          SCH=$(find "$PROJECT_DIR" -maxdepth 2 -name "*.kicad_sch" \
+                ! -name "*-rescue*" ! -path "*/ignore/*" ! -path "*/backups/*" \
+                | sort | head -1)
+          if [[ -n "$SCH" ]]; then
+            python3 scripts/sync_revision.py --schematic "$SCH"
+          fi
+
+      - name: Export all documentation
+        run: scripts/export.sh
+
+      - name: Generate Interactive BOM
+        run: scripts/ibom.sh
+        continue-on-error: true
+
+      - name: Generate distributor pricing XLSX
+        # Skipped if NO distributor secrets are set. Requires at least one of:
+        #   DIGIKEY_CLIENT_ID + DIGIKEY_CLIENT_SECRET
+        #   MOUSER_API_KEY
+        #   NEXAR_CLIENT_ID + NEXAR_CLIENT_SECRET
+        # JLCPCB uses a bundled price DB (no auth needed).
+        env:
+          DIGIKEY_CLIENT_ID: ${{ secrets.DIGIKEY_CLIENT_ID }}
+          DIGIKEY_CLIENT_SECRET: ${{ secrets.DIGIKEY_CLIENT_SECRET }}
+          MOUSER_API_KEY: ${{ secrets.MOUSER_API_KEY }}
+          NEXAR_CLIENT_ID: ${{ secrets.NEXAR_CLIENT_ID }}
+          NEXAR_CLIENT_SECRET: ${{ secrets.NEXAR_CLIENT_SECRET }}
+        run: scripts/pricing.sh
+        continue-on-error: true
+
+      - name: Extract test points
+        run: |
+          PCB=$(find "$PROJECT_DIR" -maxdepth 2 -name "*.kicad_pcb" \
+                ! -path "*/ignore/*" ! -path "*/backups/*" | sort | head -1)
+          if [[ -n "$PCB" ]]; then
+            python3 scripts/extract_testpoints.py --pcb "$PCB"
+          fi
+        continue-on-error: true
+
+      - name: Generate README
+        run: |
+          PCB=$(find "$PROJECT_DIR" -maxdepth 2 -name "*.kicad_pcb" \
+                ! -path "*/ignore/*" ! -path "*/backups/*" | sort | head -1)
+          if [[ -n "$PCB" ]]; then
+            pip install --quiet jinja2 2>/dev/null || true
+            python3 scripts/gen_readme.py --pcb "$PCB" --output output/docs/BOARD-README.md
+          fi
+        continue-on-error: true
+
+      # ── Fabrication files (for fab house upload) ──────────────────────────
+      - name: Upload — Fabrication (Gerbers + drill + ZIP)
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: fab-${{ github.sha }}
+          path: output/fab/
+          if-no-files-found: warn
+
+      # ── Documentation PDFs ────────────────────────────────────────────────
+      - name: Upload — Documentation (schematic PDF, assembly drawings)
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: docs-${{ github.sha }}
+          path: output/docs/
+          if-no-files-found: warn
+
+      # ── Board preview SVGs ────────────────────────────────────────────────
+      - name: Upload — Board previews (SVG)
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: preview-${{ github.sha }}
+          path: output/preview/
+          if-no-files-found: warn
+
+      # ── Assembly BOM + pick & place ───────────────────────────────────────
+      - name: Upload — Assembly (BOM + iBoM + pick-and-place + ZIP)
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: assembly-${{ github.sha }}
+          path: output/assembly/
+          if-no-files-found: warn
+
+      # ── 3D files (STEP + renders) ─────────────────────────────────────────
+      - name: Upload — 3D (STEP model + renders)
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: 3d-${{ github.sha }}
+          path: output/3d/
+          if-no-files-found: warn
+
+      # ── Test points ───────────────────────────────────────────────────────
+      - name: Upload — Test points
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: testpoints-${{ github.sha }}
+          path: output/testpoints/
+          if-no-files-found: warn
+
+      # ── KiCanvas source files ─────────────────────────────────────────────
+      - name: Upload — Source (for KiCanvas viewer)
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: source-${{ github.sha }}
+          path: output/source/
+          if-no-files-found: warn
+
+# ── Release ───────────────────────────────────────────────────────────────────
+  release:
+    name: "Release — Publish full doc set on tag"
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    needs: export
+    if: startsWith(github.ref, 'refs/tags/v')
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download all artifacts
+        uses: actions/download-artifact@v4
+        with:
+          pattern: "*-${{ github.sha }}"
+          path: release-assets/
+          merge-multiple: false
+
+      - name: Package release assets
+        run: |
+          cd release-assets
+          for dir in */; do
+            category="${dir%/}"
+            name=$(echo "$category" | sed "s/-${{ github.sha }}//")
+            zip -r "${name}.zip" "$category/"
+          done
+          ls -lh *.zip
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          generate_release_notes: true
+          files: release-assets/*.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+# ── Pages ─────────────────────────────────────────────────────────────────────
+  pages:
+    name: "Pages — Deploy board preview site"
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    needs: [erc, drc, export]
+    if: github.event_name != 'pull_request' && needs.export.result == 'success'
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Make scripts executable
+        run: chmod +x scripts/*.sh scripts/lib/*.sh
+
+      - name: Download fab artifacts
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: fab-${{ github.sha }}
+          path: site/fab/
+
+      - name: Download docs artifacts
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: docs-${{ github.sha }}
+          path: site/docs/
+
+      - name: Download preview artifacts
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: preview-${{ github.sha }}
+          path: site/preview/
+
+      - name: Download assembly artifacts
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: assembly-${{ github.sha }}
+          path: site/assembly/
+
+      - name: Download 3D artifacts
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: 3d-${{ github.sha }}
+          path: site/3d/
+
+      - name: Download test points
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: testpoints-${{ github.sha }}
+          path: site/testpoints/
+
+      - name: Download KiCanvas source
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: source-${{ github.sha }}
+          path: site/source/
+
+      - name: Download ERC report
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: erc-report
+          path: site/reports/erc/
+
+      - name: Download DRC report
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: drc-report
+          path: site/reports/drc/
+
+      - name: Generate Pages site
+        env:
+          ERC_STATUS: ${{ needs.erc.result }}
+          DRC_STATUS: ${{ needs.drc.result }}
+          SITE_DIR: site
+        run: scripts/gen-pages.sh
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+# ── Blender Ray-Traced Renders ────────────────────────────────────────────────
+#
+# Feature 5 — photorealistic PCB renders via Blender Cycles (CPU, headless).
+#
+# ── GPL BOUNDARY ──────────────────────────────────────────────────────────────
+# This workflow installs Blender (GPL-3.0) as an external binary tool via apt.
+# scripts/blender_render.py runs INSIDE Blender's GPL runtime, but is invoked
+# as a subprocess by scripts/render_dispatch.sh — our MIT pipeline code never
+# imports bpy directly. This mirrors "a Makefile that calls gcc isn't GPL."
+# The workflow YAML and all .sh/.py scripts in scripts/ remain MIT-licensed.
+# See: https://www.gnu.org/licenses/gpl-faq.html#GPLPlugins
+# ─────────────────────────────────────────────────────────────────────────────
+#
+# Runs on: push to default branch or manual trigger (expensive; skip on PRs).
+# Set SKIP_RENDER: "0" in env block above to enable, or use workflow_dispatch.
+# Requires: ubuntu-latest runner (installs Blender 4.x from official PPA/tar).
+  blender-render:
+    name: "Blender — Ray-Traced PCB Renders"
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    needs: [erc, drc]
+    # Skip on PRs and when SKIP_RENDER=1 (GitHub-hosted runners; no GPU needed).
+    # Remove the condition to always run, or set SKIP_RENDER=0 to enable.
+    if: >
+      github.event_name != 'pull_request' &&
+      vars.SKIP_RENDER != '1' &&
+      env.SKIP_RENDER != '1'
+    container:
+      image: ghcr.io/kicad/kicad:9.0
+      options: --user root
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Make scripts executable
+        run: chmod +x scripts/*.sh scripts/lib/*.sh
+
+      # ── Install Blender (official tar, not snap — snaps break in containers) ──
+      - name: Install Blender ${{ env.BLENDER_VERSION }}
+        run: |
+          set -euo pipefail
+          BLENDER_VER="${BLENDER_VERSION}"
+          BLENDER_URL="https://download.blender.org/release/Blender$(echo "$BLENDER_VER" | cut -d. -f1-2)/blender-${BLENDER_VER}-linux-x64.tar.xz"
+          echo "Downloading Blender $BLENDER_VER from $BLENDER_URL"
+          apt-get update -qq
+          # Runtime deps: libGL, libXi (headless Cycles CPU needs these even without display)
+          apt-get install -y --no-install-recommends \
+            libgl1 libxi6 libxrender1 libxxf86vm1 libxfixes3 \
+            libopenimagedenoise1 \
+            curl xz-utils ca-certificates
+          curl -fsSL "$BLENDER_URL" -o /tmp/blender.tar.xz
+          tar -xf /tmp/blender.tar.xz -C /opt/
+          BLENDER_DIR=$(find /opt -maxdepth 1 -name "blender-*" -type d | head -1)
+          ln -sf "$BLENDER_DIR/blender" /usr/local/bin/blender
+          blender --version
+          rm /tmp/blender.tar.xz
+
+      # ── Cache KiCad 3D models ─────────────────────────────────────────────
+      - name: Cache KiCad 3D models
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.local/share/kicad/9.0/3dmodels
+            /root/.local/share/kicad/9.0/3dmodels
+          key: kicad-3d-${{ hashFiles('**/*.kicad_pcb') }}
+          restore-keys: kicad-3d-
+
+      # ── Cache HDRI (avoid re-downloading Poly Haven file on every run) ────
+      - name: Cache HDRI
+        uses: actions/cache@v4
+        with:
+          path: assets/hdri/
+          key: hdri-studio-small-09-2k
+          restore-keys: hdri-
+
+      # ── Run render pipeline ───────────────────────────────────────────────
+      - name: Export VRML + Render via Blender
+        env:
+          BLENDER: blender
+          SKIP_RENDER: "0"
+          RENDER_SAMPLES: ${{ env.RENDER_SAMPLES }}
+          RENDER_PRESETS: ${{ env.RENDER_PRESETS }}
+          RENDER_RES_X: ${{ env.RENDER_RES_X }}
+          RENDER_RES_Y: ${{ env.RENDER_RES_Y }}
+          RENDER_SEED: ${{ env.RENDER_SEED }}
+          DENOISING: "NLM"
+          HDRI_PATH: assets/hdri/studio_small_09_2k.hdr
+          HDRI_URL: https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/2k/studio_small_09_2k.hdr
+          MATERIAL_MAP: config/material_map.yaml
+          LIGHTING_CFG: config/lighting.yaml
+          CAMERA_PRESETS: config/camera_presets.yaml
+        run: scripts/render_dispatch.sh
+
+      # ── Upload renders ────────────────────────────────────────────────────
+      - name: Upload — Blender renders (PNG)
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: renders-${{ github.sha }}
+          path: output/3d/
+          if-no-files-found: warn
