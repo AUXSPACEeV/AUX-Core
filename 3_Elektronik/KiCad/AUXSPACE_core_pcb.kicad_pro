@@ -76,7 +76,52 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|141006815|105152463|e7b1ea67-26a0-411d-9d7f-e98e62fba0b5|20a264a4-59f0-4216-9227-403e5fe42eb9",
+          ""
+        ],
+        [
+          "clearance|142106889|105410400|9f09ee8a-5c13-4ddd-ba72-57406f4f119d|6c74d567-8426-46c5-af09-e21251b3925b",
+          ""
+        ],
+        [
+          "clearance|142302215|103556200|bf8f7d3d-35c4-489c-899d-2e4b8a9c72fb|ddf7ad68-4ab0-4bc3-ab30-691d5f0fb39e",
+          ""
+        ],
+        [
+          "clearance|142802341|103556200|44f52f5b-0f7a-45fc-8689-b59103d30ab0|bf8f7d3d-35c4-489c-899d-2e4b8a9c72fb",
+          ""
+        ],
+        [
+          "clearance|143369015|104347537|a1ec9975-8110-4230-8e44-ab9c09db1cf5|54524f1b-9561-478b-95ac-17511476f71e",
+          ""
+        ],
+        [
+          "clearance|143369015|104847663|15e80edb-827a-414c-a1e6-e212e8918b92|a1ec9975-8110-4230-8e44-ab9c09db1cf5",
+          ""
+        ],
+        [
+          "clearance|143369015|105347789|e0347e7d-b5da-48c8-8b71-0ab2f5e7178c|15e80edb-827a-414c-a1e6-e212e8918b92",
+          ""
+        ],
+        [
+          "hole_clearance|126855886|102720191|49fe20b0-41f0-4115-b2e4-c2068b824d01|fb9ba0a3-7e04-464f-b825-321643655bf9",
+          ""
+        ],
+        [
+          "hole_clearance|126855886|102920191|9b698cda-8997-4389-a2dc-da537a0120d1|fb9ba0a3-7e04-464f-b825-321643655bf9",
+          ""
+        ],
+        [
+          "hole_clearance|126855886|97120191|676b859b-03c3-4418-9212-0fca52fbd908|85a3831a-4595-4227-a262-ed104c7fa686",
+          "Footprint works, idk"
+        ],
+        [
+          "hole_clearance|126855886|97320191|ff3b33aa-df45-4dc4-a10b-277ceaa76248|85a3831a-4595-4227-a262-ed104c7fa686",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -147,22 +192,22 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
-        "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_clearance": 0.125,
+        "min_connection": 0.125,
+        "min_copper_edge_clearance": 0.3,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
-        "min_microvia_diameter": 0.2,
-        "min_microvia_drill": 0.1,
+        "min_hole_to_hole": 0.3,
+        "min_microvia_diameter": 0.0,
+        "min_microvia_drill": 0.0,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
+        "min_text_thickness": 0.15,
+        "min_through_hole_diameter": 0.25,
+        "min_track_width": 0.125,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.45,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -212,8 +257,20 @@
       ],
       "track_widths": [
         0.0,
+        0.125,
         0.15,
-        0.5
+        0.175,
+        0.2,
+        0.25,
+        0.3,
+        0.35,
+        0.4,
+        0.45,
+        0.5,
+        0.55,
+        0.6,
+        0.8,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -245,6 +302,38 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.25
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.25
+        },
+        {
+          "diameter": 0.55,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.65,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.7,
+          "drill": 0.4
+        },
+        {
+          "diameter": 0.75,
+          "drill": 0.45
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.45
         }
       ],
       "zones_allow_external_fillets": false
@@ -1024,7 +1113,7 @@
         "uuid": "fcf947be-69e5-4a5f-82aa-820e73da8230"
       }
     ],
-    "used_designators": "JP1,R1-7,R9-25,R30-36,SW2-3,#G1,J5-7,BZ1-2,Q1-3,U1-8,D2-6,D10-13,C3-23,#PWR10-69,#PWR74-86",
+    "used_designators": "#PWR10-69,#PWR74-86,C3-24,D2-6,D10-13,U1-8,Q1-3,BZ1-2,J5-7,#G1,SW2-3,R1-7,R9-25,R30-36,JP1",
     "variants": []
   },
   "sheets": [
