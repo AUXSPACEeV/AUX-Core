@@ -78,11 +78,19 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|141006815|105152463|e7b1ea67-26a0-411d-9d7f-e98e62fba0b5|20a264a4-59f0-4216-9227-403e5fe42eb9",
+          "clearance|141006815|105347789|20a264a4-59f0-4216-9227-403e5fe42eb9|e7b1ea67-26a0-411d-9d7f-e98e62fba0b5",
           ""
         ],
         [
-          "clearance|142106889|105410400|9f09ee8a-5c13-4ddd-ba72-57406f4f119d|6c74d567-8426-46c5-af09-e21251b3925b",
+          "clearance|142300000|94325000|851b86c4-d945-428e-afc8-021044b36992|e7de673f-0e8e-4c28-864e-e0478534c8fc",
+          ""
+        ],
+        [
+          "clearance|142300000|94825000|0bb44141-ba47-4540-b032-61392820d1d5|851b86c4-d945-428e-afc8-021044b36992",
+          ""
+        ],
+        [
+          "clearance|142300000|95175000|0bb44141-ba47-4540-b032-61392820d1d5|1fecb391-9a3a-4c91-b947-56ea688cc62f",
           ""
         ],
         [
@@ -90,11 +98,27 @@
           ""
         ],
         [
+          "clearance|142302215|105410400|6c74d567-8426-46c5-af09-e21251b3925b|9f09ee8a-5c13-4ddd-ba72-57406f4f119d",
+          ""
+        ],
+        [
+          "clearance|142675000|95325000|1fecb391-9a3a-4c91-b947-56ea688cc62f|980b5492-1cf8-4e63-be13-a11939a2271e",
+          ""
+        ],
+        [
           "clearance|142802341|103556200|44f52f5b-0f7a-45fc-8689-b59103d30ab0|bf8f7d3d-35c4-489c-899d-2e4b8a9c72fb",
           ""
         ],
         [
-          "clearance|143369015|104347537|a1ec9975-8110-4230-8e44-ab9c09db1cf5|54524f1b-9561-478b-95ac-17511476f71e",
+          "clearance|142825000|93825000|924b216b-3808-4c3a-87be-faef3a31fd24|e7de673f-0e8e-4c28-864e-e0478534c8fc",
+          ""
+        ],
+        [
+          "clearance|143325000|95325000|7a056a5d-aa6d-4bc7-8dc4-efceb1c1bc52|980b5492-1cf8-4e63-be13-a11939a2271e",
+          ""
+        ],
+        [
+          "clearance|143369015|104152211|54524f1b-9561-478b-95ac-17511476f71e|a1ec9975-8110-4230-8e44-ab9c09db1cf5",
           ""
         ],
         [
@@ -102,7 +126,23 @@
           ""
         ],
         [
-          "clearance|143369015|105347789|e0347e7d-b5da-48c8-8b71-0ab2f5e7178c|15e80edb-827a-414c-a1e6-e212e8918b92",
+          "clearance|143369015|105152463|15e80edb-827a-414c-a1e6-e212e8918b92|e0347e7d-b5da-48c8-8b71-0ab2f5e7178c",
+          ""
+        ],
+        [
+          "clearance|143675000|93825000|0325b0e9-40b0-4952-9fc8-21be7e3d95a8|f3c60866-e82b-406f-8b73-2ae5ed5b8b3a",
+          ""
+        ],
+        [
+          "clearance|143675000|95325000|7a056a5d-aa6d-4bc7-8dc4-efceb1c1bc52|f9993682-5504-428f-9d65-bae93fc48312",
+          ""
+        ],
+        [
+          "clearance|143825000|94325000|bed052c0-971a-43de-9d2d-7658e4d68df2|f3c60866-e82b-406f-8b73-2ae5ed5b8b3a",
+          ""
+        ],
+        [
+          "clearance|143825000|95175000|4bccc5b8-a8e0-493f-8735-4cbcba95f42a|f9993682-5504-428f-9d65-bae93fc48312",
           ""
         ],
         [
@@ -224,6 +264,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -235,6 +276,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -246,6 +288,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -576,6 +619,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -627,8 +671,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -1113,7 +1157,7 @@
         "uuid": "fcf947be-69e5-4a5f-82aa-820e73da8230"
       }
     ],
-    "used_designators": "#PWR10-69,#PWR74-86,C3-24,D2-6,D10-13,U1-8,Q1-3,BZ1-2,J5-7,#G1,SW2-3,R1-7,R9-25,R30-36,JP1",
+    "used_designators": "#G1,#PWR10-69,#PWR74-86,BZ1-2,C3-24,D2-6,D10-13,J5-7,JP1,Q1-3,R1-7,R9-25,R30-36,SW2-3,U1-8",
     "variants": []
   },
   "sheets": [
