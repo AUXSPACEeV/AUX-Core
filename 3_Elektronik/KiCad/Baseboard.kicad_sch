@@ -5,7 +5,7 @@
 	(uuid "177ca22a-eef3-4add-adff-bce0940fe0dd")
 	(paper "A3")
 	(lib_symbols
-		(symbol "2026-10-07_23-10-11:LSM6DSV320XTR"
+		(symbol "AUXSPACE:LSM6DSV320XTR"
 			(pin_names
 				(offset 0.254)
 			)
@@ -34,7 +34,7 @@
 					)
 				)
 			)
-			(property "Footprint" "LGA-14L_2p5X3X0p83_STM"
+			(property "Footprint" "AUXSPACE:LGA-14L_2p5X3X0p83_STM"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -150,7 +150,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 0 0 0)
 					(length 7.62)
 					(name "SDO/TA0"
@@ -168,7 +168,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 0 -2.54 0)
 					(length 7.62)
 					(name "SDX"
@@ -186,7 +186,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 0 -5.08 0)
 					(length 7.62)
 					(name "SCX"
@@ -204,7 +204,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 0 -7.62 0)
 					(length 7.62)
 					(name "INT1"
@@ -240,7 +240,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 0 -12.7 0)
 					(length 7.62)
 					(name "GND"
@@ -258,7 +258,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 0 -15.24 0)
 					(length 7.62)
 					(name "GND"
@@ -294,7 +294,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 50.8 -12.7 180)
 					(length 7.62)
 					(name "INT2"
@@ -312,7 +312,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 50.8 -10.16 180)
 					(length 7.62)
 					(name "OCS_AUX"
@@ -330,7 +330,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 50.8 -7.62 180)
 					(length 7.62)
 					(name "SDO_AUX"
@@ -348,7 +348,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 50.8 -5.08 180)
 					(length 7.62)
 					(name "CS"
@@ -366,7 +366,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 50.8 -2.54 180)
 					(length 7.62)
 					(name "SCL"
@@ -384,7 +384,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 50.8 0 180)
 					(length 7.62)
 					(name "SDA"
@@ -2398,7 +2398,7 @@
 						(type background)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -15.24 3.81 0)
 					(length 2.54)
 					(name "SDO/SA0"
@@ -2416,7 +2416,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -15.24 1.27 0)
 					(length 2.54)
 					(name "SDx"
@@ -2434,7 +2434,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -15.24 -1.27 0)
 					(length 2.54)
 					(name "SCx"
@@ -2452,7 +2452,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at -15.24 -3.81 0)
 					(length 2.54)
 					(name "INT1"
@@ -2488,7 +2488,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 1.27 -11.43 90)
 					(length 2.54)
 					(name "GND"
@@ -2506,7 +2506,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 3.81 -11.43 90)
 					(length 2.54)
 					(name "GND"
@@ -2542,7 +2542,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 16.51 -3.81 180)
 					(length 2.54)
 					(name "INT2"
@@ -2596,7 +2596,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 16.51 -1.27 180)
 					(length 2.54)
 					(name "CS"
@@ -2614,7 +2614,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 16.51 1.27 180)
 					(length 2.54)
 					(name "SCL"
@@ -2632,7 +2632,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 16.51 3.81 180)
 					(length 2.54)
 					(name "SDA"
@@ -3386,7 +3386,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 0 -10.16 0)
 					(length 5.08)
 					(name "FB"
@@ -3404,7 +3404,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 -12.7 0)
 					(length 5.08)
 					(name "NC"
@@ -3422,7 +3422,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 -15.24 0)
 					(length 5.08)
 					(name "NC"
@@ -3458,7 +3458,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 -17.78 0)
 					(length 5.08)
 					(name "NC"
@@ -5510,7 +5510,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Wurth_WR-USB:629722000214"
+		(symbol "AUXSPACE:629722000214"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -6726,6 +6726,17 @@
 					)
 				)
 			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
 				(show_name no)
@@ -7246,7 +7257,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Interface_CAN_LIN:TCAN334"
+		(symbol "AUXSPACE:TCAN334"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -7614,7 +7625,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "RF_Module:ESP32-S3-WROOM-1"
+		(symbol "AUXSPACE:ESP32-S3-WROOM-1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -7640,7 +7651,7 @@
 					)
 				)
 			)
-			(property "Footprint" "RF_Module:ESP32-S3-WROOM-1"
+			(property "Footprint" "AUXSPACE:ESP32-S3-WROOM-1"
 				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -9361,6 +9372,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 121.92 227.33)
@@ -10706,12 +10832,6 @@
 		(uuid "f30cf1f7-1268-4183-9228-536663f1ada7")
 	)
 	(junction
-		(at 247.65 236.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f4d3babf-7922-4f24-bba4-a35f1a76b7dd")
-	)
-	(junction
 		(at 255.27 223.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11318,16 +11438,6 @@
 			(type default)
 		)
 		(uuid "1f0969b6-111d-4b8d-b57e-d5c3fbf99579")
-	)
-	(wire
-		(pts
-			(xy 243.84 236.22) (xy 247.65 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2197ea37-6ed5-48b8-9a6b-6ffbf0144fce")
 	)
 	(wire
 		(pts
@@ -13921,16 +14031,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 163.83) (xy 255.27 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5773e70-4c74-43e4-9fef-3389b0ac2fed")
-	)
-	(wire
-		(pts
 			(xy 77.47 50.8) (xy 85.09 50.8)
 		)
 		(stroke
@@ -15472,16 +15572,6 @@
 		)
 		(uuid "24ab0385-8a45-4271-a3db-948e541cc7f7")
 	)
-	(label "CAN-"
-		(at 173.99 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "29b4f4ba-21da-42f1-b443-2f6c072d2cd6")
-	)
 	(label "Bat on ext"
 		(at 327.66 106.68 0)
 		(effects
@@ -15511,16 +15601,6 @@
 			(justify right bottom)
 		)
 		(uuid "330db393-d77f-4289-a289-c9f7ee661599")
-	)
-	(label "VBus_direct"
-		(at 322.58 166.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3c96d69a-c5fb-4c2e-baa3-bf84c763ed4f")
 	)
 	(label "VBus_switched_B"
 		(at 322.58 215.9 0)
@@ -15562,7 +15642,7 @@
 		)
 		(uuid "4360fcf2-d344-437c-9315-cd3f4277805f")
 	)
-	(label "VBus_Switched_D"
+	(label "VBus_switched_D"
 		(at 322.58 186.69 0)
 		(effects
 			(font
@@ -15581,16 +15661,6 @@
 			(justify right bottom)
 		)
 		(uuid "4e5d5a18-eb2f-4539-9050-b56def4dee78")
-	)
-	(label "CAN+"
-		(at 173.99 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "50ffe3d4-8cc0-4521-8452-b9887ea348eb")
 	)
 	(label "USB_D+"
 		(at 265.43 203.2 180)
@@ -15873,16 +15943,6 @@
 		)
 		(uuid "87c332ad-7316-4f8b-8974-64bddeee93c1")
 	)
-	(label "ACCEL_INT2"
-		(at 255.27 163.83 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "89036c1d-52b8-49ca-9259-129fd25b0c20")
-	)
 	(label "I2C_SDA_top"
 		(at 309.88 43.18 180)
 		(effects
@@ -15913,7 +15973,7 @@
 		)
 		(uuid "9150b6ef-ed1c-4668-a983-123cdec7d03c")
 	)
-	(label "VBus_Switched_D"
+	(label "VBus_switched_D"
 		(at 322.58 226.06 0)
 		(effects
 			(font
@@ -15933,7 +15993,7 @@
 		)
 		(uuid "999aebc9-d24f-4d60-9409-6e838a5c94ea")
 	)
-	(label "VBus_Switched_D"
+	(label "VBus_switched_D"
 		(at 372.11 204.47 180)
 		(effects
 			(font
@@ -16123,26 +16183,6 @@
 			(justify right bottom)
 		)
 		(uuid "ae686a31-fe22-4b15-9de9-c98308cd7b24")
-	)
-	(label "VBus_direct"
-		(at 372.11 184.15 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "af4fd3f3-6af0-49c6-a99c-4ad01ac9a324")
-	)
-	(label "VBus_direct"
-		(at 322.58 205.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b1ad2aa5-8dae-486c-9c5a-e2685c0a357d")
 	)
 	(label "Bat on ext"
 		(at 327.66 43.18 0)
@@ -16335,16 +16375,6 @@
 			(justify left bottom)
 		)
 		(uuid "cd62df0c-8cf4-4559-b00a-4310a97fa6ac")
-	)
-	(label "PWR_LED"
-		(at 168.91 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cd82ed6d-1f5a-4442-903b-d5b3a2f44d06")
 	)
 	(label "USB_D-"
 		(at 124.46 203.2 0)
@@ -21935,7 +21965,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Interface_CAN_LIN:TCAN334")
+		(lib_id "AUXSPACE:TCAN334")
 		(at 157.48 99.06 0)
 		(unit 1)
 		(body_style 1)
@@ -24239,7 +24269,7 @@
 		)
 	)
 	(symbol
-		(lib_id "RF_Module:ESP32-S3-WROOM-1")
+		(lib_id "AUXSPACE:ESP32-S3-WROOM-1")
 		(at 73.66 238.76 0)
 		(unit 1)
 		(body_style 1)
@@ -24269,7 +24299,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-S3-WROOM-1"
+		(property "Footprint" "AUXSPACE:ESP32-S3-WROOM-1"
 			(at 73.66 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -29070,7 +29100,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Wurth_WR-USB:629722000214")
+		(lib_id "AUXSPACE:629722000214")
 		(at 165.1 250.19 0)
 		(unit 1)
 		(body_style 1)
@@ -30483,7 +30513,7 @@
 		)
 	)
 	(symbol
-		(lib_id "2026-10-07_23-10-11:LSM6DSV320XTR")
+		(lib_id "AUXSPACE:LSM6DSV320XTR")
 		(at 190.5 151.13 0)
 		(unit 1)
 		(body_style 1)
@@ -30513,7 +30543,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LGA-14L_2p5X3X0p83_STM"
+		(property "Footprint" "AUXSPACE:LGA-14L_2p5X3X0p83_STM"
 			(at 190.5 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -34252,6 +34282,555 @@
 			(project "AUXSPACE_core_pcb"
 				(path "/fcf947be-69e5-4a5f-82aa-820e73da8230/1651c7ca-6224-4e8a-9cb4-b9fec35e7950"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(no_connect
+		(at 241.3 163.83)
+		(uuid "59245794-10a9-4ea6-abe6-7f450d3046e2")
+	)
+	(symbol
+		(lib_id "AUXSPACE:3V3")
+		(at 322.58 166.37 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0b8253f0-ab17-4129-9ab9-6f4e6a6d8cb7")
+		(property "Reference" "#PWR083"
+			(at 322.58 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBus_direct"
+			(at 325.755 166.37 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 322.58 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 322.58 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VPP\""
+			(at 322.58 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0936cf7d-2ede-4151-8f75-7ea2248be6ef")
+		)
+		(instances
+			(project "AUXSPACE_core_pcb"
+				(path "/fcf947be-69e5-4a5f-82aa-820e73da8230/1651c7ca-6224-4e8a-9cb4-b9fec35e7950"
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AUXSPACE:3V3")
+		(at 372.11 184.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1decedee-a658-4ea2-836d-ffb8425c30d9")
+		(property "Reference" "#PWR084"
+			(at 372.11 184.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBus_direct"
+			(at 368.935 184.15 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 372.11 184.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 372.11 184.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VPP\""
+			(at 372.11 184.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6d9f31b3-671a-4a36-b768-45488f593bf0")
+		)
+		(instances
+			(project "AUXSPACE_core_pcb"
+				(path "/fcf947be-69e5-4a5f-82aa-820e73da8230/1651c7ca-6224-4e8a-9cb4-b9fec35e7950"
+					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AUXSPACE:3V3")
+		(at 322.58 205.74 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "68b4430e-5e0e-4916-831f-5be4f9947b9f")
+		(property "Reference" "#PWR085"
+			(at 322.58 205.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBus_direct"
+			(at 325.755 205.74 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 322.58 205.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 322.58 205.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VPP\""
+			(at 322.58 205.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8bb8afa8-d80d-4af1-973b-1f1da0cb9156")
+		)
+		(instances
+			(project "AUXSPACE_core_pcb"
+				(path "/fcf947be-69e5-4a5f-82aa-820e73da8230/1651c7ca-6224-4e8a-9cb4-b9fec35e7950"
+					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 300.99 191.77 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fb5004df-368d-4150-8abe-98200d359140")
+		(property "Reference" "#FLG01"
+			(at 300.99 191.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 297.815 191.77 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 300.99 191.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 300.99 191.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 300.99 191.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "40ca7ea1-c8eb-49b7-991f-bd5213c30696")
+		)
+		(instances
+			(project "AUXSPACE_core_pcb"
+				(path "/fcf947be-69e5-4a5f-82aa-820e73da8230/1651c7ca-6224-4e8a-9cb4-b9fec35e7950"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 372.11 184.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "18488642-70dd-41b2-80b3-5da5655f7db1")
+		(property "Reference" "#FLG02"
+			(at 372.11 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 372.11 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 372.11 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 372.11 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 372.11 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b189b64c-d8d9-46c2-a941-bad9df00d19c")
+		)
+		(instances
+			(project "AUXSPACE_core_pcb"
+				(path "/fcf947be-69e5-4a5f-82aa-820e73da8230/1651c7ca-6224-4e8a-9cb4-b9fec35e7950"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 138.43 245.11 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fadd1621-69ee-420b-82af-9e723ed2dea8")
+		(property "Reference" "#FLG03"
+			(at 138.43 245.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 135.255 245.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 245.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 245.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 138.43 245.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d3f0a9ed-5db5-4deb-a22c-b62c333c6bd5")
+		)
+		(instances
+			(project "AUXSPACE_core_pcb"
+				(path "/fcf947be-69e5-4a5f-82aa-820e73da8230/1651c7ca-6224-4e8a-9cb4-b9fec35e7950"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 255.27 226.06 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "095455c5-633e-4980-b4aa-28e39b5395d0")
+		(property "Reference" "#FLG04"
+			(at 255.27 226.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 252.095 226.06 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 226.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 226.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 255.27 226.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8c2d7219-534d-402e-8cba-3dfd51a29e92")
+		)
+		(instances
+			(project "AUXSPACE_core_pcb"
+				(path "/fcf947be-69e5-4a5f-82aa-820e73da8230/1651c7ca-6224-4e8a-9cb4-b9fec35e7950"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)

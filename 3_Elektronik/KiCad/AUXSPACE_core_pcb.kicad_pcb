@@ -3641,7 +3641,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Baseboard/CAN-")
+			(net "/Baseboard/CAN_L")
 			(pintype "passive")
 			(uuid "7bc9589a-5b71-436a-ae9b-eb12c233208f")
 		)
@@ -4870,7 +4870,7 @@
 			(at 0 -2.38 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "05aa4067-ac1d-416f-860b-cb82968c4ee4")
+			(uuid "50339e9f-6863-42e3-a943-b4fe0e6567f5")
 			(effects
 				(font
 					(size 1 1)
@@ -4881,7 +4881,7 @@
 		(property "Value" "PinHeader 2,54mm 3p"
 			(at 0 7.46 90)
 			(layer "F.Fab")
-			(uuid "e07365cd-f48b-4747-a570-aa70192a366a")
+			(uuid "d5be2df7-7f84-464c-8650-65a15d0be692")
 			(effects
 				(font
 					(size 1 1)
@@ -4893,7 +4893,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7a955e06-ae93-4cd7-85e8-5b30b6d6a8ca")
+			(uuid "acba381c-c563-4a90-81d3-4da91ea3b07d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4904,7 +4904,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3932b3fa-8326-4737-96b3-f0962e8aab16")
+			(uuid "cf6a5fc9-d853-450f-a788-ef54807d5dd7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6578,7 +6578,7 @@
 			(uuid "4c72c9a9-44c7-4fe1-96f7-958164568762")
 			(effects
 				(font
-					(size 0.64 0.64)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -9149,7 +9149,7 @@
 			(roundrect_rratio 0.25)
 			(net "Net-(U2-FB)")
 			(pinfunction "FB_2")
-			(pintype "unspecified")
+			(pintype "input")
 			(uuid "bd5a73f8-8aa3-472a-94da-4ab449fa0577")
 		)
 		(pad "3" smd roundrect
@@ -9159,7 +9159,7 @@
 			(roundrect_rratio 0.25)
 			(net "GND")
 			(pinfunction "NC_3")
-			(pintype "unspecified")
+			(pintype "passive")
 			(uuid "a4f867ae-f67d-456a-9cdc-881546516394")
 		)
 		(pad "4" smd roundrect
@@ -9169,7 +9169,7 @@
 			(roundrect_rratio 0.25)
 			(net "GND")
 			(pinfunction "NC_4")
-			(pintype "unspecified")
+			(pintype "passive")
 			(uuid "f50e032b-4cc3-4208-8195-4d7b6fc1b193")
 		)
 		(pad "5" smd roundrect
@@ -9189,7 +9189,7 @@
 			(roundrect_rratio 0.25)
 			(net "GND")
 			(pinfunction "NC_6")
-			(pintype "unspecified")
+			(pintype "passive")
 			(uuid "034ad9a2-2921-4582-95a1-094e1036881e")
 		)
 		(pad "7" smd roundrect
@@ -11494,7 +11494,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Baseboard/CAN+")
+			(net "/Baseboard/CAN_H")
 			(pintype "passive")
 			(uuid "77e0357a-d780-4049-af58-57af4c1870b1")
 		)
@@ -15703,7 +15703,7 @@
 			(at 4.445001 -1.715 180)
 			(size 0.74 2.92)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/Baseboard/VBus_Switched_D")
+			(net "/Baseboard/VBus_switched_D")
 			(pinfunction "Pin_18_18")
 			(pintype "passive")
 			(uuid "ce51ce22-cfe2-44c2-b4bf-f7b22334021d")
@@ -15721,7 +15721,7 @@
 			(at 5.715 -1.715 180)
 			(size 0.74 2.92)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/Baseboard/VBus_Switched_D")
+			(net "/Baseboard/VBus_switched_D")
 			(pinfunction "Pin_20_20")
 			(pintype "passive")
 			(uuid "3d78283c-7d4a-41e4-9b91-7666498fcef4")
@@ -17085,7 +17085,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
 			(pinfunction "SDO/SA0_1")
-			(pintype "unspecified")
+			(pintype "bidirectional")
 			(uuid "996ed9b8-f4ff-473b-9c36-e680bf9c0195")
 		)
 		(pad "2" smd rect
@@ -17094,7 +17094,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
 			(pinfunction "SDx_2")
-			(pintype "unspecified")
+			(pintype "bidirectional")
 			(uuid "2ba8156d-2548-4010-975f-d6261dc5c8b6")
 		)
 		(pad "3" smd rect
@@ -17103,7 +17103,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
 			(pinfunction "SCx_3")
-			(pintype "unspecified")
+			(pintype "input")
 			(uuid "e7b1ea67-26a0-411d-9d7f-e98e62fba0b5")
 		)
 		(pad "4" smd rect
@@ -17112,7 +17112,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/Baseboard/IMU_INT")
 			(pinfunction "INT1_4")
-			(pintype "input")
+			(pintype "output")
 			(uuid "20a264a4-59f0-4216-9227-403e5fe42eb9")
 		)
 		(pad "5" smd rect
@@ -17130,7 +17130,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
 			(pinfunction "GND_6")
-			(pintype "power_out")
+			(pintype "power_in")
 			(uuid "6c74d567-8426-46c5-af09-e21251b3925b")
 		)
 		(pad "7" smd rect
@@ -17139,7 +17139,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
 			(pinfunction "GND_7")
-			(pintype "power_out")
+			(pintype "power_in")
 			(uuid "96e1f775-a734-4408-bcf7-5ae3389780d7")
 		)
 		(pad "8" smd rect
@@ -17157,7 +17157,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U5-INT2-Pad9)")
 			(pinfunction "INT2_9")
-			(pintype "input+no_connect")
+			(pintype "output+no_connect")
 			(uuid "15e80edb-827a-414c-a1e6-e212e8918b92")
 		)
 		(pad "10" smd rect
@@ -17184,7 +17184,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U5-CS-Pad12)")
 			(pinfunction "CS_12")
-			(pintype "unspecified+no_connect")
+			(pintype "input+no_connect")
 			(uuid "44f52f5b-0f7a-45fc-8689-b59103d30ab0")
 		)
 		(pad "13" smd rect
@@ -17193,7 +17193,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/Baseboard/I2C0_SCL")
 			(pinfunction "SCL_13")
-			(pintype "unspecified")
+			(pintype "input")
 			(uuid "bf8f7d3d-35c4-489c-899d-2e4b8a9c72fb")
 		)
 		(pad "14" smd rect
@@ -17202,7 +17202,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/Baseboard/I2C0_SDA")
 			(pinfunction "SDA_14")
-			(pintype "unspecified")
+			(pintype "bidirectional")
 			(uuid "ddf7ad68-4ab0-4bc3-ab30-691d5f0fb39e")
 		)
 		(embedded_fonts no)
@@ -17862,7 +17862,7 @@
 			(at -4.445001 1.715 180)
 			(size 0.74 2.92)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/Baseboard/CAN+")
+			(net "/Baseboard/CAN_H")
 			(pinfunction "Pin_3_3")
 			(pintype "passive")
 			(uuid "5fd26cad-067a-4287-b457-9372e7d49866")
@@ -17880,7 +17880,7 @@
 			(at -3.175 1.715 180)
 			(size 0.74 2.92)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/Baseboard/CAN-")
+			(net "/Baseboard/CAN_L")
 			(pinfunction "Pin_5_5")
 			(pintype "passive")
 			(uuid "cb4a1125-9061-448e-adc9-7b131f1b509e")
@@ -20633,7 +20633,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "+3V3")
 			(pinfunction "SDO/TA0_1")
-			(pintype "unspecified")
+			(pintype "bidirectional")
 			(uuid "0b1a57f1-a05d-429f-a93a-fabbb51bd359")
 		)
 		(pad "2" smd rect
@@ -20642,7 +20642,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "+3V3")
 			(pinfunction "SDX_2")
-			(pintype "unspecified")
+			(pintype "bidirectional")
 			(uuid "54c4428e-37ab-47bd-a331-4b41515c05ed")
 		)
 		(pad "3" smd rect
@@ -20651,7 +20651,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "+3V3")
 			(pinfunction "SCX_3")
-			(pintype "unspecified")
+			(pintype "input")
 			(uuid "d6e827f4-d11b-4428-9613-6a622a94d4b6")
 		)
 		(pad "4" smd rect
@@ -20660,7 +20660,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/Baseboard/ACCEL_INT1")
 			(pinfunction "INT1_4")
-			(pintype "unspecified")
+			(pintype "output")
 			(uuid "eafb562a-38f8-4de0-a64b-33557bd49443")
 		)
 		(pad "5" smd rect
@@ -20678,7 +20678,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
 			(pinfunction "GND_6")
-			(pintype "power_out")
+			(pintype "power_in")
 			(uuid "db3aa0a6-4b96-481d-8783-c88f91c3c48b")
 		)
 		(pad "7" smd rect
@@ -20687,7 +20687,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
 			(pinfunction "GND_7")
-			(pintype "power_out")
+			(pintype "power_in")
 			(uuid "611a5225-f6ab-4ff9-b056-f587a4994397")
 		)
 		(pad "8" smd rect
@@ -20703,9 +20703,9 @@
 			(at 1.2057 0.25 180)
 			(size 0.254 0.535)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "/Baseboard/ACCEL_INT2")
+			(net "unconnected-(U1-INT2-Pad9)")
 			(pinfunction "INT2_9")
-			(pintype "unspecified")
+			(pintype "output+no_connect")
 			(uuid "e349b2ce-1222-4f1b-81d1-e77259e98368")
 		)
 		(pad "10" smd rect
@@ -20714,7 +20714,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1-OCS_AUX-Pad10)")
 			(pinfunction "OCS_AUX_10")
-			(pintype "unspecified+no_connect")
+			(pintype "passive+no_connect")
 			(uuid "4f0b55e6-29bc-4cdc-92bc-9777e53ea390")
 		)
 		(pad "11" smd rect
@@ -20723,7 +20723,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U1-SDO_AUX-Pad11)")
 			(pinfunction "SDO_AUX_11")
-			(pintype "unspecified+no_connect")
+			(pintype "bidirectional+no_connect")
 			(uuid "80a9546c-dcb8-4218-86e6-7e402a4ac64e")
 		)
 		(pad "12" smd rect
@@ -20732,7 +20732,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "+3V3")
 			(pinfunction "CS_12")
-			(pintype "unspecified")
+			(pintype "input")
 			(uuid "48359f88-8d99-4de3-b67a-4f872cc176d5")
 		)
 		(pad "13" smd rect
@@ -20741,7 +20741,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/Baseboard/I2C0_SCL")
 			(pinfunction "SCL_13")
-			(pintype "unspecified")
+			(pintype "input")
 			(uuid "9c49d1a2-3793-4001-b373-97f5eab33ee4")
 		)
 		(pad "14" smd rect
@@ -20750,7 +20750,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/Baseboard/I2C0_SDA")
 			(pinfunction "SDA_14")
-			(pintype "unspecified")
+			(pintype "bidirectional")
 			(uuid "912a72fd-520f-4eb5-847a-2b05c507d27a")
 		)
 		(embedded_fonts no)
@@ -21139,7 +21139,7 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Baseboard/CAN-")
+			(net "/Baseboard/CAN_L")
 			(pinfunction "CANL_6")
 			(pintype "bidirectional")
 			(uuid "56dc8e46-dde4-46f3-b0b3-b13bb287e69f")
@@ -21149,7 +21149,7 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Baseboard/CAN+")
+			(net "/Baseboard/CAN_H")
 			(pinfunction "CANH_7")
 			(pintype "bidirectional")
 			(uuid "8b8071c0-380e-407b-a0be-e2bc64013d5c")
@@ -25174,20 +25174,6 @@
 			(layer "B.Fab")
 			(uuid "e904d959-9afa-4061-842d-fe4aa335cb3d")
 		)
-		(pad "" np_thru_hole circle
-			(at -7.305 0)
-			(size 1.42 1.42)
-			(drill 1.42)
-			(layers "*.Cu" "*.Mask")
-			(uuid "2c0de004-9106-4a37-8d48-a31f6e542fd8")
-		)
-		(pad "" np_thru_hole circle
-			(at 7.305 0)
-			(size 1.42 1.42)
-			(drill 1.42)
-			(layers "*.Cu" "*.Mask")
-			(uuid "9d8214cc-0b54-410a-92e0-cdff79c57ee2")
-		)
 		(pad "1" smd rect
 			(at 5.715 -1.365)
 			(size 0.74 2.22)
@@ -25345,7 +25331,7 @@
 			(at -4.445 1.365)
 			(size 0.74 2.22)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "/Baseboard/VBus_Switched_D")
+			(net "/Baseboard/VBus_switched_D")
 			(pinfunction "Pin_18_18")
 			(pintype "passive")
 			(uuid "96155027-5bd6-46ca-862b-12f8e5c7ba6c")
@@ -25363,7 +25349,7 @@
 			(at -5.715 1.365)
 			(size 0.74 2.22)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "/Baseboard/VBus_Switched_D")
+			(net "/Baseboard/VBus_switched_D")
 			(pinfunction "Pin_20_20")
 			(pintype "passive")
 			(uuid "a3a34e59-6f89-48b9-bf74-31f2e2c58f82")
@@ -25797,7 +25783,7 @@
 			)
 		)
 	)
-	(footprint "RF_Module:ESP32-S3-WROOM-1"
+	(footprint "AUXSPACE:ESP32-S3-WROOM-1"
 		(layer "B.Cu")
 		(uuid "3acda12d-4166-46cb-bb44-26659426e0ed")
 		(at 166.76 100 90)
@@ -29888,20 +29874,6 @@
 			(layer "B.Fab")
 			(uuid "490403d2-8f3e-4b1c-926d-cc107afadb4d")
 		)
-		(pad "" np_thru_hole circle
-			(at -7.305 0)
-			(size 1.42 1.42)
-			(drill 1.42)
-			(layers "*.Cu" "*.Mask")
-			(uuid "8cd5e0eb-b465-4b28-99c5-9121115bec34")
-		)
-		(pad "" np_thru_hole circle
-			(at 7.305 0)
-			(size 1.42 1.42)
-			(drill 1.42)
-			(layers "*.Cu" "*.Mask")
-			(uuid "178af00e-3833-4b74-b82b-0269260adf0d")
-		)
 		(pad "1" smd rect
 			(at 5.715 -1.365)
 			(size 0.74 2.22)
@@ -29924,7 +29896,7 @@
 			(at 4.445 -1.365)
 			(size 0.74 2.22)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "/Baseboard/CAN+")
+			(net "/Baseboard/CAN_H")
 			(pinfunction "Pin_3_3")
 			(pintype "passive")
 			(uuid "2ba598a1-f27e-48db-aece-24469c25b5f2")
@@ -29942,7 +29914,7 @@
 			(at 3.175 -1.365)
 			(size 0.74 2.22)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "/Baseboard/CAN-")
+			(net "/Baseboard/CAN_L")
 			(pinfunction "Pin_5_5")
 			(pintype "passive")
 			(uuid "2af7fad5-80cd-4e44-9314-efa32c562c33")
@@ -30341,7 +30313,7 @@
 			(uuid "005c3fc5-29b6-4a4c-afb4-8190bb22026d")
 			(effects
 				(font
-					(size 0.64 0.64)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -35529,7 +35501,7 @@
 	)
 	(segment
 		(start 143.5125 95)
-		(end 144.0125 94.5)
+		(end 144.0125 95)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "GND")
@@ -38645,7 +38617,7 @@
 		(end 161.671 115.099)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "/Baseboard/CAN-")
+		(net "/Baseboard/CAN_L")
 		(uuid "97d3155a-103c-4aa0-93f4-e39f4d9b3a0f")
 	)
 	(segment
@@ -38653,7 +38625,7 @@
 		(end 161.671 118.745)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/Baseboard/CAN-")
+		(net "/Baseboard/CAN_L")
 		(uuid "a53ecf2b-6b6c-46a7-a2c2-9bc264953657")
 	)
 	(segment
@@ -38661,7 +38633,7 @@
 		(end 161.77 115)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "/Baseboard/CAN-")
+		(net "/Baseboard/CAN_L")
 		(uuid "bc38a53a-065c-45ff-9420-c1107e61514a")
 	)
 	(segment
@@ -38669,7 +38641,7 @@
 		(end 161.675 118.749)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "/Baseboard/CAN-")
+		(net "/Baseboard/CAN_L")
 		(uuid "c99bc41d-cfd3-46a1-8c3e-cdaeae342369")
 	)
 	(segment
@@ -38677,7 +38649,7 @@
 		(end 161.671 118.745)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "/Baseboard/CAN-")
+		(net "/Baseboard/CAN_L")
 		(uuid "ed79e779-a2b7-484d-9889-b1f9dfeea1b7")
 	)
 	(via
@@ -38685,7 +38657,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net "/Baseboard/CAN-")
+		(net "/Baseboard/CAN_L")
 		(uuid "5272c268-973d-49d9-b1f2-8b74c5a4e716")
 	)
 	(segment
@@ -38693,7 +38665,7 @@
 		(end 161.671 121.131)
 		(width 0.5)
 		(layer "B.Cu")
-		(net "/Baseboard/CAN-")
+		(net "/Baseboard/CAN_L")
 		(uuid "28793cd4-8352-43ff-84f4-6c7a574d1fc0")
 	)
 	(segment
@@ -38701,7 +38673,7 @@
 		(end 161.675 121.135)
 		(width 0.5)
 		(layer "B.Cu")
-		(net "/Baseboard/CAN-")
+		(net "/Baseboard/CAN_L")
 		(uuid "58b2b79f-5e24-4fd9-9812-b2d7fa12ee62")
 	)
 	(segment
@@ -38855,6 +38827,46 @@
 		(layer "F.Cu")
 		(net "Net-(U7-C1)")
 		(uuid "e4dd7d8c-6fc7-47ad-b084-d489ea8af60c")
+	)
+	(segment
+		(start 141.75 94.5)
+		(end 141.5 94.25)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Baseboard/MAG_DRDY")
+		(uuid "21e201e4-2a0e-48e8-b3e5-dc6b9090abba")
+	)
+	(segment
+		(start 142.4875 94.5)
+		(end 141.75 94.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/Baseboard/MAG_DRDY")
+		(uuid "44de5e36-e8d7-40b2-a46f-cec4e9d67d62")
+	)
+	(via
+		(at 141.5 94.25)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "/Baseboard/MAG_DRDY")
+		(uuid "40eb25af-b9a6-44bb-a618-a286e1b6a8a2")
+	)
+	(segment
+		(start 154.26 94.285)
+		(end 141.535 94.285)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "/Baseboard/MAG_DRDY")
+		(uuid "04638baa-9370-4393-9750-9d2de324be83")
+	)
+	(segment
+		(start 141.535 94.285)
+		(end 141.5 94.25)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "/Baseboard/MAG_DRDY")
+		(uuid "5ece6cba-d28c-4ad9-8e79-5429d13558de")
 	)
 	(segment
 		(start 144.15 101.905)
@@ -39445,7 +39457,7 @@
 		(end 162.945001 118.749001)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "/Baseboard/CAN+")
+		(net "/Baseboard/CAN_H")
 		(uuid "29f82ac0-58e5-4c11-9fd5-0efc05d3bbf1")
 	)
 	(segment
@@ -39453,7 +39465,7 @@
 		(end 163.04 115)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "/Baseboard/CAN+")
+		(net "/Baseboard/CAN_H")
 		(uuid "47f36b43-65ae-4a16-9648-632e6002a8dd")
 	)
 	(segment
@@ -39461,7 +39473,7 @@
 		(end 162.941 115.099)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "/Baseboard/CAN+")
+		(net "/Baseboard/CAN_H")
 		(uuid "5442a631-ad41-405d-b792-f2aa24ed2606")
 	)
 	(segment
@@ -39469,7 +39481,7 @@
 		(end 162.941 118.745)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "/Baseboard/CAN+")
+		(net "/Baseboard/CAN_H")
 		(uuid "6055a4c9-e7f7-47ac-8ac2-067b8a56f442")
 	)
 	(segment
@@ -39477,7 +39489,7 @@
 		(end 162.941 118.745)
 		(width 0.2)
 		(layer "F.Cu")
-		(net "/Baseboard/CAN+")
+		(net "/Baseboard/CAN_H")
 		(uuid "90fc8e92-9123-403b-8458-d108e67e702f")
 	)
 	(via
@@ -39485,7 +39497,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net "/Baseboard/CAN+")
+		(net "/Baseboard/CAN_H")
 		(uuid "653add78-83b3-4edb-94f8-45f745513eb1")
 	)
 	(segment
@@ -39493,7 +39505,7 @@
 		(end 162.941 121.131)
 		(width 0.5)
 		(layer "B.Cu")
-		(net "/Baseboard/CAN+")
+		(net "/Baseboard/CAN_H")
 		(uuid "3bf4a350-8a6f-4507-8ebc-3b074448236c")
 	)
 	(segment
@@ -39501,7 +39513,7 @@
 		(end 162.945 121.135)
 		(width 0.5)
 		(layer "B.Cu")
-		(net "/Baseboard/CAN+")
+		(net "/Baseboard/CAN_H")
 		(uuid "d612024a-6f77-443e-bca3-f3eb42629e81")
 	)
 	(segment
@@ -40085,7 +40097,7 @@
 		(end 152.785 81.276)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "/Baseboard/VBus_Switched_D")
+		(net "/Baseboard/VBus_switched_D")
 		(uuid "86811159-b4b6-42ad-9fd8-5c6514e447f5")
 	)
 	(segment
@@ -40093,7 +40105,7 @@
 		(end 152.781 81.28)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "/Baseboard/VBus_Switched_D")
+		(net "/Baseboard/VBus_switched_D")
 		(uuid "9599a7b7-d5e7-4cf8-a1d7-22a2ba9a837e")
 	)
 	(segment
@@ -40101,7 +40113,7 @@
 		(end 154.051 81.28)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "/Baseboard/VBus_Switched_D")
+		(net "/Baseboard/VBus_switched_D")
 		(uuid "9f30b56b-25d3-4164-81ce-8f85fd5f3afe")
 	)
 	(segment
@@ -40109,7 +40121,7 @@
 		(end 154.054999 79.215)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "/Baseboard/VBus_Switched_D")
+		(net "/Baseboard/VBus_switched_D")
 		(uuid "bab2bd07-4186-4a99-8f9a-5c68713f0db6")
 	)
 	(segment
@@ -40117,7 +40129,7 @@
 		(end 154.054999 81.276001)
 		(width 0.5)
 		(layer "F.Cu")
-		(net "/Baseboard/VBus_Switched_D")
+		(net "/Baseboard/VBus_switched_D")
 		(uuid "e3995105-62b1-41cf-ac97-8fac0f3db083")
 	)
 	(via
@@ -40125,7 +40137,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net "/Baseboard/VBus_Switched_D")
+		(net "/Baseboard/VBus_switched_D")
 		(uuid "bdda5d17-d6a0-44c8-bea5-07243c79654b")
 	)
 	(via
@@ -40133,7 +40145,7 @@
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net "/Baseboard/VBus_Switched_D")
+		(net "/Baseboard/VBus_switched_D")
 		(uuid "d21068f7-ca50-4811-b52e-7684c366dd28")
 	)
 	(segment
@@ -40141,7 +40153,7 @@
 		(end 152.785 78.865)
 		(width 0.5)
 		(layer "B.Cu")
-		(net "/Baseboard/VBus_Switched_D")
+		(net "/Baseboard/VBus_switched_D")
 		(uuid "02413ed3-f0f4-423d-98c9-2159e7fbb16a")
 	)
 	(segment
@@ -40149,7 +40161,7 @@
 		(end 152.781 78.869)
 		(width 0.5)
 		(layer "B.Cu")
-		(net "/Baseboard/VBus_Switched_D")
+		(net "/Baseboard/VBus_switched_D")
 		(uuid "3ad854d7-f618-4076-9e91-3b41633c22fd")
 	)
 	(segment
@@ -40157,7 +40169,7 @@
 		(end 154.051 78.869)
 		(width 0.5)
 		(layer "B.Cu")
-		(net "/Baseboard/VBus_Switched_D")
+		(net "/Baseboard/VBus_switched_D")
 		(uuid "5384d585-f5c9-4979-a2e3-db07490d503d")
 	)
 	(segment
@@ -40165,7 +40177,7 @@
 		(end 154.055 78.865)
 		(width 0.5)
 		(layer "B.Cu")
-		(net "/Baseboard/VBus_Switched_D")
+		(net "/Baseboard/VBus_switched_D")
 		(uuid "e9a7da41-51e6-4934-bf0e-1cf66b5b7d37")
 	)
 	(segment
@@ -41831,46 +41843,6 @@
 		(layer "B.Cu")
 		(net "/Baseboard/I2C_SCL_bot")
 		(uuid "e10b2cd7-3c9f-497f-b552-3580578c6f21")
-	)
-	(segment
-		(start 141.75 94.5)
-		(end 141.5 94.25)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Baseboard/MAG_DRDY")
-		(uuid "21e201e4-2a0e-48e8-b3e5-dc6b9090abba")
-	)
-	(segment
-		(start 142.4875 94.5)
-		(end 141.75 94.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "/Baseboard/MAG_DRDY")
-		(uuid "44de5e36-e8d7-40b2-a46f-cec4e9d67d62")
-	)
-	(via
-		(at 141.5 94.25)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "/Baseboard/MAG_DRDY")
-		(uuid "40eb25af-b9a6-44bb-a618-a286e1b6a8a2")
-	)
-	(segment
-		(start 154.26 94.285)
-		(end 141.535 94.285)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "/Baseboard/MAG_DRDY")
-		(uuid "04638baa-9370-4393-9750-9d2de324be83")
-	)
-	(segment
-		(start 141.535 94.285)
-		(end 141.5 94.25)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "/Baseboard/MAG_DRDY")
-		(uuid "5ece6cba-d28c-4ad9-8e79-5429d13558de")
 	)
 	(zone
 		(net "+3V3")

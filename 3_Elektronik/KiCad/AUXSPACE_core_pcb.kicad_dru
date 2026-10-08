@@ -37,3 +37,25 @@
     (condition "A.Type == 'Pad'"))
 
 #----------------------------------------------------------------------------------------------------
+
+#----------------------------------------------------------------------------------------------------
+# Fine-pitch LGA sensors: the datasheet land patterns leave only 0.15-0.195mm between neighbouring
+# pads, below the 0.2mm netclass clearance but above the 0.125mm fab minimum (board setup).
+# Relax the clearance between pads of the same package only; tracks keep the netclass clearance.
+
+(rule "LGA-12 2x2mm pad-to-pad (LIS3MDL)"
+    (constraint clearance (min 0.15mm))
+    (condition "A.memberOfFootprint('Package_LGA:LGA-12_2x2mm_P0.5mm') && B.memberOfFootprint('Package_LGA:LGA-12_2x2mm_P0.5mm')"))
+
+(rule "LGA-14 2.5x3mm pad-to-pad (LSM6DSO32X)"
+    (constraint clearance (min 0.15mm))
+    (condition "A.memberOfFootprint('AUXSPACE:LGA_O32XTR_STM') && B.memberOfFootprint('AUXSPACE:LGA_O32XTR_STM')"))
+
+#----------------------------------------------------------------------------------------------------
+# Silkscreen that deliberately runs past the board edge (J7 USB-C body outline overhangs the edge,
+# hampter logo follows the outline). The fab clips silk at the outline, so don't report it.
+
+(rule "Silk past board edge: J7, logo"
+    (severity ignore)
+    (constraint silk_clearance)
+    (condition "(A.Layer == 'Edge.Cuts' && (B.memberOfFootprint('AUXSPACE:J_Wurth_WR-USB_629722000214') || B.memberOfFootprint('AUXSPACE:hampter'))) || (B.Layer == 'Edge.Cuts' && (A.memberOfFootprint('AUXSPACE:J_Wurth_WR-USB_629722000214') || A.memberOfFootprint('AUXSPACE:hampter')))"))
