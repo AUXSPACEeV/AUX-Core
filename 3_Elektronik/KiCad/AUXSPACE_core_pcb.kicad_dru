@@ -59,3 +59,13 @@
     (severity ignore)
     (constraint silk_clearance)
     (condition "(A.Layer == 'Edge.Cuts' && (B.memberOfFootprint('AUXSPACE:J_Wurth_WR-USB_629722000214') || B.memberOfFootprint('AUXSPACE:hampter'))) || (B.Layer == 'Edge.Cuts' && (A.memberOfFootprint('AUXSPACE:J_Wurth_WR-USB_629722000214') || A.memberOfFootprint('AUXSPACE:hampter')))"))
+
+#----------------------------------------------------------------------------------------------------
+# ESP32 (U4) antenna keepout: the courtyards of H1/H3 (mounting holes), J5 and J6 reach 0.13-0.39mm
+# into the keepout on the opposite side; their copper stays outside it. Only waive the footprint
+# (courtyard) check for these four - tracks, vias, pads and pours stay disallowed.
+
+(rule "U4 antenna keepout: courtyard overlap H1/H3/J5/J6"
+    (severity ignore)
+    (constraint disallow footprint)
+    (condition "A.Type == 'Footprint' && (A.Reference == 'H1' || A.Reference == 'H3' || A.Reference == 'J5' || A.Reference == 'J6')"))
