@@ -732,7 +732,7 @@
       "plot": "../../6_Export-Fertigungsdaten/rev-01/Layers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../06_work_Harry/Main_PCB.step",
+      "step": "../../6_Export-Fertigungsdaten/rev-01/Aux-core.pdf",
       "svg": "",
       "vrml": ""
     },
