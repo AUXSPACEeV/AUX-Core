@@ -4,16 +4,19 @@
 
 ![pcb_cover,png](/2_Designunterlagen/AUX-Core.png)
 
-AUX-Core is based on [µMETER](https://github.com/AUXSPACEeV/microMETER) and extends it by a
-high-G accelerometer, a magnetometer, 9 V USB Power Delivery and the stack connector that
-interfaces the board with the other PCBs of the avionics stack.
+AUX-Core is our first stackable flight computer.
+It operates on a powerful ESP32S3 MCU with sensors for attitude tracking,
+9V USB Power Delivery or an external Power source and can interface
+with other Auxspace Avionics stack components, such as
+[AUX-Pwr](https://github.com/AUXSPACEeV/AUX-Pwr) or
+[AUX-Tel](https://github.com/AUXSPACEeV/AUX-Tel).
 
 ## Features
 
-* **Barometer** DPS310 for altitude computation
-* **IMU** STM LSM6DSO32X for acceleration and rotation data
-* **High-G accelerometer** ADXL375 (±200 g) for launch and recovery events
-* **Magnetometer** Melexis MLX90395 for attitude reference
+* **Barometer** DPS310/DPS368 for altitude computation
+* **IMU** STM LSM6DSO32x for acceleration and rotation data
+* **High-G accelerometer** STM LSM6DSV320XTR (±320 g) when things get tough
+* **Magnetometer** STM LIS3MDL for attitude reference
 * **Buzzer** for easier commissioning and recovery
 * **CAN bus** (TCAN334) for communication with the other stack PCBs
 * **µSD card** for logging

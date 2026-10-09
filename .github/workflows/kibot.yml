@@ -3,12 +3,15 @@ name: KiCad CI
 
 on:
   push:
-    branches: ["**"]
+    branches: ["main"]
     tags: ["v*"]
     paths-ignore: &ignore
       - '**.md'
       - 'LICENSE'
       - '.gitignore'
+      - '**.png'
+      - '**.pdf'
+      - '**.svg'
   pull_request:
     paths-ignore: *ignore
   workflow_dispatch:
