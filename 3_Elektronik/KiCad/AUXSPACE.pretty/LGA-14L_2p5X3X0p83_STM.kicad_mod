@@ -845,4 +845,15 @@
 		(uuid "1492bf1f-1e94-4335-b109-238c12fe7993")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/3D-Models/LGA_O32XTR_STM.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

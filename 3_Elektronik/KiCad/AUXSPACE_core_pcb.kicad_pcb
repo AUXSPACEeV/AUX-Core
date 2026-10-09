@@ -2202,6 +2202,17 @@
 			(uuid "1b9f386f-a6eb-4d46-a85a-aa2213ab4883")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/SSOP-10-1EP_3.9x4.9mm_P1mm_EP2.1x3.3mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "AUXSPACE:WE-TVS_824094024_SOT23-3L"
 		(layer "F.Cu")
@@ -17970,6 +17981,17 @@
 			(uuid "ddf7ad68-4ab0-4bc3-ab30-691d5f0fb39e")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3D-Models/LGA_O32XTR_STM.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
@@ -21518,6 +21540,17 @@
 			(uuid "912a72fd-520f-4eb5-847a-2b05c507d27a")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3D-Models/LGA_O32XTR_STM.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 		(layer "F.Cu")
