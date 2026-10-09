@@ -13510,16 +13510,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 241.3) (xy 105.41 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9273a28b-8c75-4555-82e0-6fa1d39c235f")
-	)
-	(wire
-		(pts
 			(xy 52.07 102.87) (xy 52.07 109.22)
 		)
 		(stroke
@@ -14850,16 +14840,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 228.6) (xy 58.42 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1715c62-567c-4da6-9dcd-417072757384")
-	)
-	(wire
-		(pts
 			(xy 67.31 163.83) (xy 69.85 163.83)
 		)
 		(stroke
@@ -14967,6 +14947,16 @@
 			(type default)
 		)
 		(uuid "e67ba027-d0cf-478a-a943-f3bfb56dec2b")
+	)
+	(wire
+		(pts
+			(xy 39.37 228.6) (xy 58.42 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e75872a9-d22d-4e16-92a6-924b8ee05cef")
 	)
 	(wire
 		(pts
@@ -15157,6 +15147,16 @@
 			(type default)
 		)
 		(uuid "ee4cafce-4d9e-4fcc-8379-1fdb6b780b40")
+	)
+	(wire
+		(pts
+			(xy 88.9 241.3) (xy 105.41 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee7fe17a-0502-462f-9357-ab96c8e6a706")
 	)
 	(wire
 		(pts
@@ -15641,12 +15641,12 @@
 		(uuid "17d0d25d-52a5-4329-b140-86b62d117f76")
 	)
 	(label "SD_LED"
-		(at 39.37 228.6 0)
+		(at 105.41 241.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "18f88e8d-6b46-4570-82e9-b1decb461555")
 	)
@@ -16033,12 +16033,12 @@
 		(uuid "7689dd34-febc-4f96-8a30-edbabe0493e8")
 	)
 	(label "STATE_LED"
-		(at 105.41 241.3 180)
+		(at 39.37 228.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "79b0ba0d-bc03-40c9-8f3b-c21750b3713b")
 	)
