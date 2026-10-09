@@ -7,3 +7,12 @@ Notes:
 	b. or they will need to be converted to slots (assuming the targeted tool has a slot capability) using the process defined in your cad tool for identifying a padstack as a slot.  
 		i. Typically this is only capable of a width and length of the slot and a size of the mill radius that creates the slot.  
 		ii. Choosing to use the native tool slots will require removing entities on the board outline and the associated pads in the footprint.
+
+Attribution:
+
+Symbols, footprints and 3D models of Würth Elektronik parts (files named *Wurth*, *Würth*, *Wuerth*, WE-* and
+the matching entries in AUXSPACE.kicad_sym / AUXSPACE.pretty, e.g. the WS-TASU, WS-TASV, WR-CRD,
+WR-USB, WR-WTB, WCAP-ASLL and WE-TVS libraries) are © Würth Elektronik eiSos GmbH & Co. KG, https://www.we-online.com,
+and are licensed under the Creative Commons Attribution-ShareAlike 4.0 International License
+(https://creativecommons.org/licenses/by-sa/4.0/). Changes made for this project: converted to the current KiCad file
+format, merged into the AUXSPACE libraries, and footprint/3D-model paths and footprint links adapted.

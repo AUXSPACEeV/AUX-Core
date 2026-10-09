@@ -146,6 +146,42 @@
 			(embedded_fonts no)
 		)
 	)
+	(no_connect
+		(at 255.27 106.68)
+		(uuid "078b354c-9c35-4769-b456-a061e8b119ea")
+	)
+	(no_connect
+		(at 255.27 102.87)
+		(uuid "19b5a25b-3305-4efd-ad65-8aba9cecbc6c")
+	)
+	(no_connect
+		(at 255.27 109.22)
+		(uuid "47d814c2-c782-412a-8927-21c3772299c6")
+	)
+	(no_connect
+		(at 255.27 143.51)
+		(uuid "6c33fdc0-0d6e-403f-9456-27c5317c2134")
+	)
+	(no_connect
+		(at 255.27 146.05)
+		(uuid "993cfa55-0478-4781-9310-3a6cc4bb4606")
+	)
+	(no_connect
+		(at 255.27 151.13)
+		(uuid "cf0b9333-cd67-4d20-a2cc-1ad35865c12e")
+	)
+	(no_connect
+		(at 255.27 140.97)
+		(uuid "db46b833-9b0e-489d-83f1-7ca9064b086b")
+	)
+	(no_connect
+		(at 255.27 100.33)
+		(uuid "ef3678e2-3a51-45a6-98c5-a6a31bff6b90")
+	)
+	(no_connect
+		(at 255.27 148.59)
+		(uuid "f856c14f-7950-413f-b45a-b2418333e460")
+	)
 	(wire
 		(pts
 			(xy 238.76 128.27) (xy 238.76 125.73)

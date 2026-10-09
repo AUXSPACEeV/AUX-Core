@@ -1,0 +1,66 @@
+# KiCad CI via KiBot — outputs are configured in /.kibot.yaml
+name: KiCad CI
+
+on:
+  push:
+    branches: ["**"]
+    tags: ["v*"]
+    paths-ignore: &ignore
+      - '**.md'
+      - 'LICENSE'
+      - '.gitignore'
+  pull_request:
+    paths-ignore: *ignore
+  workflow_dispatch:
+
+concurrency:
+  group: kicad-ci-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  SCH: 3_Elektronik/KiCad/AUXSPACE_core_pcb.kicad_sch
+  PCB: 3_Elektronik/KiCad/AUXSPACE_core_pcb.kicad_pcb
+
+jobs:
+  kibot:
+    name: ERC / DRC / outputs
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # for the tag release
+    container:
+      # Bump together with the KiCad version the project is saved with.
+      image: ghcr.io/inti-cmnb/kicad10_auto_full:1.9.1-1_k10.0.5_d13.2_b4.2.4LTS
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Mark workspace safe for git
+        run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
+
+      - name: Run KiBot
+        # -F: fail the job if ERC/DRC found errors (outputs are still built)
+        run: kibot -F -c .kibot.yaml -d out -e "$SCH" -b "$PCB"
+
+      - name: Schematic/PCB diff against base branch
+        if: github.event_name == 'pull_request'
+        run: >
+          kibot -c .kibot.yaml -d out -e "$SCH" -b "$PCB" -s all
+          -E BASE=origin/${{ github.base_ref }} diff_sch diff_pcb
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: kibot-outputs
+          path: out/
+          if-no-files-found: warn
+
+      - name: Release
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            out/fab/*.zip
+            out/assembly/*
+            out/docs/*.pdf
+            out/3d/*

@@ -1,0 +1,6 @@
+# Keep LF line endings so KiCad files and CI configs diff cleanly across OSes
+*.kicad_sch  text eol=lf
+*.kicad_pcb  text eol=lf
+*.kicad_pro  text eol=lf
+*.yml        text eol=lf
+*.yaml       text eol=lf

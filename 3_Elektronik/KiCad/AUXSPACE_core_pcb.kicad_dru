@@ -1,1 +1,71 @@
-(version 1)
+(version 1.1)
+#----------------------------------------------------------------------------------------------------
+# AISLER custom DRC rules.
+# Make Hardware less Hard. 
+#----------------------------------------------------------------------------------------------------
+# We created these custom rules to warn you if your design hits our manufacturing bounderies. 
+# You can disable the custom rules by commenting them out, though we advise against it.  
+# These rules are valid as of May 2024, please check for updated ones on our forum.
+# Please also note that these rules do not catch every single manufacturing limit. 
+# If you are not certain please check the documentation on our website. 
+#----------------------------------------------------------------------------------------------------
+
+# As our tooling is finite we only support certain trough hole sizes. 
+# Please keep the plated trough holes below 5.6mm in diameter. 
+# We provide a community post for more details: 
+# https://community.aisler.net/t/plated-and-non-plated-holes/50
+
+(rule "Max Drill Hole Size PTH"
+    (constraint hole_size (max 5.6mm))
+    (condition "A.Pad_Type == 'Through-hole'"))
+
+#----------------------------------------------------------------------------------------------------
+# We dont support micro or buried vias
+
+(rule "Disallow buried via"
+   (constraint disallow buried_via))
+
+(rule "Disallow micro via"
+   (constraint disallow micro_via))
+
+#----------------------------------------------------------------------------------------------------
+# The Soldermask is pulled back by a bit to account for slight missalignment during manufacturing. 
+# We do this on our own, please keep the soldermask margin set to 0. 
+ 
+(rule "Disallow solder mask margin overrides"
+    (constraint assertion "A.Soldermask_Margin_Override == 0mm || A.Soldermask_Margin_Override == null")
+    (condition "A.Type == 'Pad'"))
+
+#----------------------------------------------------------------------------------------------------
+
+#----------------------------------------------------------------------------------------------------
+# Fine-pitch LGA sensors: the datasheet land patterns leave only 0.15-0.195mm between neighbouring
+# pads, below the 0.2mm netclass clearance but above the 0.125mm fab minimum (board setup).
+# Relax the clearance between pads of the same package only; tracks keep the netclass clearance.
+
+(rule "LGA-12 2x2mm pad-to-pad (LIS3MDL)"
+    (constraint clearance (min 0.15mm))
+    (condition "A.memberOfFootprint('Package_LGA:LGA-12_2x2mm_P0.5mm') && B.memberOfFootprint('Package_LGA:LGA-12_2x2mm_P0.5mm')"))
+
+(rule "LGA-14 2.5x3mm pad-to-pad (LSM6DSO32X)"
+    (constraint clearance (min 0.15mm))
+    (condition "A.memberOfFootprint('AUXSPACE:LGA_O32XTR_STM') && B.memberOfFootprint('AUXSPACE:LGA_O32XTR_STM')"))
+
+#----------------------------------------------------------------------------------------------------
+# Silkscreen that deliberately runs past the board edge (J7 USB-C body outline overhangs the edge,
+# hampter logo follows the outline). The fab clips silk at the outline, so don't report it.
+
+(rule "Silk past board edge: J7, logo"
+    (severity ignore)
+    (constraint silk_clearance)
+    (condition "(A.Layer == 'Edge.Cuts' && (B.memberOfFootprint('AUXSPACE:J_Wurth_WR-USB_629722000214') || B.memberOfFootprint('AUXSPACE:hampter'))) || (B.Layer == 'Edge.Cuts' && (A.memberOfFootprint('AUXSPACE:J_Wurth_WR-USB_629722000214') || A.memberOfFootprint('AUXSPACE:hampter')))"))
+
+#----------------------------------------------------------------------------------------------------
+# ESP32 (U4) antenna keepout: the courtyards of H1/H3 (mounting holes), J5 and J6 reach 0.13-0.39mm
+# into the keepout on the opposite side; their copper stays outside it. Only waive the footprint
+# (courtyard) check for these four - tracks, vias, pads and pours stay disallowed.
+
+(rule "U4 antenna keepout: courtyard overlap H1/H3/J5/J6"
+    (severity ignore)
+    (constraint disallow footprint)
+    (condition "A.Type == 'Footprint' && (A.Reference == 'H1' || A.Reference == 'H3' || A.Reference == 'J5' || A.Reference == 'J6')"))
