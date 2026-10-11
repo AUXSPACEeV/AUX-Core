@@ -729,10 +729,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../../6_Export-Fertigungsdaten/rev-01/Layers/",
+      "plot": "../../6_Export-Fertigungsdaten/rev-01/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../6_Export-Fertigungsdaten/rev-01/Aux-core.pdf",
+      "step": "../../6_Export-Fertigungsdaten/rev-01/Aux-core.step",
       "svg": "",
       "vrml": ""
     },
@@ -1206,7 +1206,7 @@
         "uuid": "fcf947be-69e5-4a5f-82aa-820e73da8230"
       }
     ],
-    "used_designators": "#G1,#PWR10-69,#PWR74-86,BZ1-2,C3-24,D2-6,D10-13,J5-7,JP1,Q1-3,R1-7,R9-25,R30-36,SW2-3,U1-8",
+    "used_designators": "#G1,#PWR10-69,#PWR74-86,BZ1-2,C3-25,D2-6,D10-13,J5-7,JP1,Q1-3,R1-7,R9-25,R30-36,SW2-3,U1-8",
     "variants": []
   },
   "sheets": [
