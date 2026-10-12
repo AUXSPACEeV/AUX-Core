@@ -1206,7 +1206,7 @@
         "uuid": "fcf947be-69e5-4a5f-82aa-820e73da8230"
       }
     ],
-    "used_designators": "#G1,#PWR10-69,#PWR74-86,BZ1-2,C3-25,D2-6,D10-13,J5-7,JP1,Q1-3,R1-7,R9-25,R30-36,SW2-3,U1-8",
+    "used_designators": "#FLG3-4,#G1,#PWR10-69,#PWR74-87,BZ1-2,C3-25,D2-6,D10-13,J5-7,JP1,Q1-3,R1-7,R9-25,R30-36,SW2-3,U1-8",
     "variants": []
   },
   "sheets": [
@@ -1217,6 +1217,18 @@
     [
       "1651c7ca-6224-4e8a-9cb4-b9fec35e7950",
       "Baseboard"
+    ],
+    [
+      "c1c34f9d-3830-4b4a-a4f0-825485b921a4",
+      "MCU"
+    ],
+    [
+      "d4da4c36-ed5f-46f0-a3a7-f17f05d777c6",
+      "Sensors and Peripherals"
+    ],
+    [
+      "4968a88b-ec3c-4978-a86f-cfe626ff2edf",
+      "Power"
     ]
   ],
   "text_variables": {},
