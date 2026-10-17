@@ -173,7 +173,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "../../6_Export-Fertigungsdaten/rev-01/")
+			(outputdirectory "../../6_Export-Fertigungsdaten/rev-01/Layers/Gerber/")
 		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"

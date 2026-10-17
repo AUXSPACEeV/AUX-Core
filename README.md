@@ -2,7 +2,7 @@
 
 > Core/Sensor PCB of the Auxspace Avionics stack, built around an ESP32-S3-WROOM-1.
 
-![pcb_cover,png](/2_Designunterlagen/AUX-Core.png)
+![pcb_cover,png](/2_Designunterlagen/front_cover.drawio.png)
 
 AUX-Core is our first stackable flight computer.
 It operates on a powerful ESP32S3 MCU with sensors for attitude tracking,
