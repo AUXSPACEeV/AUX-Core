@@ -87,11 +87,11 @@
         ],
         [
           "annular_width|121200000|89225000|e644cb9e-de52-48a9-8d12-cab88ef9dfd7|00000000-0000-0000-0000-000000000000",
-          ""
+          "Production was fine on alpha version"
         ],
         [
           "annular_width|121200000|93275000|2d67ef04-6332-46c2-9c89-e330ab511c36|00000000-0000-0000-0000-000000000000",
-          ""
+          "Production was fine on alpha version"
         ],
         [
           "hole_clearance|126855886|102720191|49fe20b0-41f0-4115-b2e4-c2068b824d01|fb9ba0a3-7e04-464f-b825-321643655bf9",
@@ -99,15 +99,15 @@
         ],
         [
           "hole_clearance|126855886|102920191|9b698cda-8997-4389-a2dc-da537a0120d1|fb9ba0a3-7e04-464f-b825-321643655bf9",
-          ""
+          "Production was fine on alpha version"
         ],
         [
           "hole_clearance|126855886|97120191|676b859b-03c3-4418-9212-0fca52fbd908|85a3831a-4595-4227-a262-ed104c7fa686",
-          "Footprint works, idk"
+          "Production was fine on alpha version"
         ],
         [
           "hole_clearance|126855886|97320191|ff3b33aa-df45-4dc4-a10b-277ceaa76248|85a3831a-4595-4227-a262-ed104c7fa686",
-          ""
+          "Production was fine on alpha version"
         ]
       ],
       "meta": {
