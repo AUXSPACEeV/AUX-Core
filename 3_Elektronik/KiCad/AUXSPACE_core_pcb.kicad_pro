@@ -628,7 +628,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../../6_Export-Fertigungsdaten/rev-01/Layers/Gerber/",
+      "plot": "../../6_Export-Fertigungsdaten/rev-01/Layers/PDF/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../../6_Export-Fertigungsdaten/rev-01/Aux-core.step",
