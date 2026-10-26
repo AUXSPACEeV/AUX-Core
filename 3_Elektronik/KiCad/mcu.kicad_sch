@@ -2505,6 +2505,10 @@
 		(at 109.22 82.55)
 		(uuid "c21a039a-6f82-41cd-b39a-3d25dcd347b7")
 	)
+	(no_connect
+		(at 109.22 107.95)
+		(uuid "faf5eba4-6b40-4a81-9abe-1f383d141d5b")
+	)
 	(wire
 		(pts
 			(xy 179.07 110.49) (xy 190.5 110.49)
@@ -2774,16 +2778,6 @@
 			(type default)
 		)
 		(uuid "40ffaf18-ff1a-4a35-928c-98b754a6db85")
-	)
-	(wire
-		(pts
-			(xy 109.22 107.95) (xy 129.54 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45d2429c-1e82-4e40-a4fa-5ec8af5e69c7")
 	)
 	(wire
 		(pts
@@ -3642,17 +3636,6 @@
 			(justify right)
 		)
 		(uuid "58b72573-a4d1-438c-b978-48be8d4c9c2e")
-	)
-	(hierarchical_label "BARO_INT"
-		(shape passive)
-		(at 129.54 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "70e2e21e-b118-40e0-b327-68899ebe4a10")
 	)
 	(hierarchical_label "IMU_INT"
 		(shape passive)

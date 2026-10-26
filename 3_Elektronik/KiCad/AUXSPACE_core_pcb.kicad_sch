@@ -394,16 +394,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 138.43) (xy 191.77 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "624ee047-8878-412c-a5ed-3ba6f915d989")
-	)
-	(wire
-		(pts
 			(xy 182.88 111.76) (xy 191.77 111.76)
 		)
 		(stroke
@@ -434,7 +424,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 140.97) (xy 191.77 140.97)
+			(xy 182.88 138.43) (xy 191.77 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1634,18 +1624,8 @@
 				(justify right)
 			)
 		)
-		(pin "BARO_INT" passive
-			(at 191.77 138.43 180)
-			(uuid "2d1931d8-de16-43f1-b2df-05e835ab8574")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "Buzzer" passive
-			(at 191.77 140.97 180)
+			(at 191.77 138.43 180)
 			(uuid "831d15bd-8680-413b-97ae-546181f14ebd")
 			(effects
 				(font
@@ -1970,16 +1950,6 @@
 				(justify right)
 			)
 		)
-		(pin "BARO_INT" passive
-			(at 182.88 138.43 0)
-			(uuid "3882e24e-b9bb-4f21-b3e8-04acddec7379")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "I2C0_SCL" passive
 			(at 182.88 100.33 0)
 			(uuid "4f35b621-b535-4a1a-b040-87766bea780c")
@@ -2081,7 +2051,7 @@
 			)
 		)
 		(pin "Buzzer" passive
-			(at 182.88 140.97 0)
+			(at 182.88 138.43 0)
 			(uuid "ffe8afaf-5ba7-4702-a364-70d1dfff0697")
 			(effects
 				(font
